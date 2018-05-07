@@ -5,4 +5,4 @@ Screenshot             |  Screenshot
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot1.png) |  ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot2.png)
 ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot3.png) |  ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot4.png)
-![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot5.png) |  ![alt 
+![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot5.png) |
