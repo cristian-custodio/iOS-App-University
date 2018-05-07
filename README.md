@@ -3,8 +3,6 @@ An iOS application for the University of the Supernatural Ministry located in Mi
 
 Screenshot             |  Screenshot
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot1.png) |  ![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot2.png)
-![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot3.png) |  ![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot4.png)
-![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot5.png) |  ![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot6.png)
-
-![alt text](https://github.com/cristian-custodio/University-Android-App/blob/master/ScreenShots/ScreenShot7.png)
+![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot1.png) |  ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot2.png)
+![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot3.png) |  ![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot4.png)
+![alt text](https://github.com/cristian-custodio/iOS-App-University/blob/master/Screenshots/ScreenShot5.png) |  ![alt 
