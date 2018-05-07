@@ -1,0 +1,2 @@
+# iOS-App-University
+An iOS application for the University of the Supernatural Ministry located in Miami,FL. The iOS Application display information regarding the different degree programs offered and displaying the different courses in a card view style. A degree audit module is also available to students with a summary displaying the courses they are needed an number of credits completed and well as remaining.
