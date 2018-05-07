@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DegreeAuditViewController" customModule="usmapp" customModuleProvider="target">
+            <connections>
+                <outlet property="brv103" destination="BfS-KN-kyD" id="vNX-Uy-7Dy"/>
+                <outlet property="brv120" destination="nIc-l7-33D" id="x0U-BK-Zmy"/>
+                <outlet property="brv220" destination="JSe-tD-Cbk" id="Qsw-eR-ZaR"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="g6v-bU-hV2"/>
+                <outlet property="ged220" destination="7zd-9k-Ehb" id="mN5-b3-5Ef"/>
+                <outlet property="ged260" destination="n5g-nr-5dd" id="v1N-Ac-Vxs"/>
+                <outlet property="kpg101" destination="ggm-QO-6hN" id="5aK-EB-IA6"/>
+                <outlet property="kpg201" destination="EE2-SK-LAv" id="ec1-bv-l9W"/>
+                <outlet property="kpg210" destination="5Ja-4b-ZmH" id="i8D-nh-E6g"/>
+                <outlet property="kpg330" destination="g1o-v0-84E" id="lJT-R1-FXf"/>
+                <outlet property="pmi110" destination="ApS-kb-Pfw" id="0Ki-IR-RUf"/>
+                <outlet property="pmi120" destination="yvi-AU-0KZ" id="XiM-GT-mHJ"/>
+                <outlet property="pmi130" destination="05e-Vi-tGe" id="rdw-cu-hTI"/>
+                <outlet property="pmi210" destination="InO-1d-fUa" id="jAq-JP-7cd"/>
+                <outlet property="pmi220" destination="opx-eg-fnf" id="jwF-Ae-8p8"/>
+                <outlet property="rkg210" destination="Cr2-Yd-7H9" id="QoI-uq-LFz"/>
+                <outlet property="rkg310" destination="Mmc-Ar-1xS" id="Atu-yI-CMP"/>
+                <outlet property="sup101" destination="X35-gn-VeS" id="ODO-aS-1id"/>
+                <outlet property="sup110" destination="8rt-Wd-Gva" id="lJp-gy-YFm"/>
+                <outlet property="sup120" destination="GSs-RB-HX5" id="vP9-NM-SBh"/>
+                <outlet property="sup130" destination="mv2-Zb-Dye" id="mvO-Mg-9uD"/>
+                <outlet property="sup140" destination="cNY-fO-4dY" id="1Ij-no-dxt"/>
+                <outlet property="sup201" destination="ETI-lB-Of7" id="oAc-AD-pqv"/>
+                <outlet property="sup210" destination="CUa-dV-0t7" id="CvG-3U-Ag6"/>
+                <outlet property="sup220" destination="lCI-DV-Cj0" id="GJX-x0-lGr"/>
+                <outlet property="sup230" destination="7Vw-CA-Cv6" id="h5C-O7-iAc"/>
+                <outlet property="sup240" destination="Sno-uf-xfN" id="Z58-jq-EIu"/>
+                <outlet property="sup250" destination="45C-Of-M51" id="GBG-Sa-EbX"/>
+                <outlet property="sup260" destination="Ram-qy-WGt" id="TEV-0q-Vcy"/>
+                <outlet property="sup350" destination="wDF-UD-Ift" id="Svb-PA-yzt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yef-mP-bUK">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-sP-CIf">
+                            <rect key="frame" x="8" y="161" width="398" height="465"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Associates Degree Audit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                            <rect key="frame" x="8" y="15.000000000000002" width="398" height="27.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APS-sR-3gc">
+                            <rect key="frame" x="33" y="105" width="351" height="401"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="YLP-iK-8AW">
+                                    <rect key="frame" x="0.0" y="0.0" width="351" height="1178"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supernatural Ministry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Q-sJ-4x8">
+                                            <rect key="frame" x="0.0" y="0.0" width="351" height="20.333333333333332"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X35-gn-VeS">
+                                            <rect key="frame" x="0.0" y="34.333333333333343" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 101 - Revelation and Power of the Work of Jesus Christ on the Cross I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="lds-Ny-3gv"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETI-lB-Of7">
+                                            <rect key="frame" x="0.0" y="68.333333333333343" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 201 - Revelation and Power of the Work of Jesus Christ on the Cross II">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="waB-C5-mev"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8rt-Wd-Gva">
+                                            <rect key="frame" x="0.0" y="102.33333333333334" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 110 - Revelation and Power of the Resurrection of Jesus Christ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="wTs-4t-lR0"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GSs-RB-HX5">
+                                            <rect key="frame" x="0.0" y="136.33333333333334" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 120 - Faith I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="C8k-T3-ura"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lCI-DV-Cj0">
+                                            <rect key="frame" x="0.0" y="170.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 220 - Faith II">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="4Ot-a8-x9r"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mv2-Zb-Dye">
+                                            <rect key="frame" x="0.0" y="204.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 130 - Prayer I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="bQ9-NI-245"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Vw-CA-Cv6">
+                                            <rect key="frame" x="0.0" y="238.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 230 - Prayer II">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="u16-Zi-gWe"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNY-fO-4dY">
+                                            <rect key="frame" x="0.0" y="272.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 140 - Evangelism with Miracles I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="FFt-IS-E9T"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ram-qy-WGt">
+                                            <rect key="frame" x="0.0" y="306.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 260 - Evangelism with Miracles II">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="WoW-Yt-rDY"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-dV-0t7">
+                                            <rect key="frame" x="0.0" y="340.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 210 - Inner Healing and Deliverance">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="vzx-lu-mhY"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sno-uf-xfN">
+                                            <rect key="frame" x="0.0" y="374.33333333333331" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 240 - Divine Health and Healing">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="vZF-eE-qYe"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45C-Of-M51">
+                                            <rect key="frame" x="0.0" y="408.33333333333337" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 250 - How to Walk in the Supernatural Power of God I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="4cS-h9-oAe"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wDF-UD-Ift">
+                                            <rect key="frame" x="0.0" y="442.33333333333337" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="SUP 350 - How to Walk in the Supernatural Power of God II">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="M4D-P7-xtu"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kingdom, Power and Glory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8P-Xi-Guo">
+                                            <rect key="frame" x="0.0" y="476.33333333333337" width="351" height="20.333333333333314"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggm-QO-6hN">
+                                            <rect key="frame" x="0.0" y="510.66666666666663" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="KPG 101 - The Apostolic Vision of the House I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="fxv-ZO-fg4"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EE2-SK-LAv">
+                                            <rect key="frame" x="0.0" y="544.66666666666663" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="KPG 201 - The Apostolic Vision of the House I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="BOs-C1-BQT"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ja-4b-ZmH">
+                                            <rect key="frame" x="0.0" y="578.66666666666663" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="KPG 210 - Kingdom Economic Principles">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="D3B-Rm-Atc"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1o-v0-84E">
+                                            <rect key="frame" x="0.0" y="612.66666666666663" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="KPG 330 - Kingdom Advancement Through Missions">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="WSO-wN-dRp"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal and Ministerial Identity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmc-LT-f6p">
+                                            <rect key="frame" x="0.0" y="646.66666666666663" width="351" height="20.333333333333371"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApS-kb-Pfw">
+                                            <rect key="frame" x="0.0" y="681" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="PMI 110 - Introduction to the Five-Fold Ministry">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="AlM-uI-Hws"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvi-AU-0KZ">
+                                            <rect key="frame" x="0.0" y="715" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="PMI 120 - The Formation of the Character and Ministry of a Leader I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="mh2-c9-jey"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05e-Vi-tGe">
+                                            <rect key="frame" x="0.0" y="749" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="PMI 130 - How to Find your Purpose and Calling for your Life I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="n9R-Ks-k2O"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InO-1d-fUa">
+                                            <rect key="frame" x="0.0" y="783" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="PMI 210 - Fathering, Family, Marriage and Children I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="Aee-HM-Vhf"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="opx-eg-fnf">
+                                            <rect key="frame" x="0.0" y="817" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="PMI 220 - Transformation through the Renewing of the Mind">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="7L1-nE-R1e"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOR-WI-ipJ">
+                                            <rect key="frame" x="0.0" y="851" width="351" height="20.333333333333371"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5g-nr-5dd">
+                                            <rect key="frame" x="0.0" y="885.33333333333337" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="GED 260 - The Three Pillars of Health: Diet, Exercise and Rest I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="Mc2-Wg-nMh"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7zd-9k-Ehb">
+                                            <rect key="frame" x="0.0" y="919.33333333333326" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="GED 220 - English Composition">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="Zl8-TV-CmV"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revelation and Knowledge of God" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8d-f9-s4q">
+                                            <rect key="frame" x="0.0" y="953.33333333333326" width="351" height="20.333333333333371"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cr2-Yd-7H9">
+                                            <rect key="frame" x="0.0" y="987.66666666666674" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="RKG 210 - How to Hear the Voice of God">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="SpA-qI-xOz"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mmc-Ar-1xS">
+                                            <rect key="frame" x="0.0" y="1021.6666666666667" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="RKG 310 - The Holy Spirit in the Now I">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="cGf-Ha-jhd"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblical Revelation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-p7-Ax7">
+                                            <rect key="frame" x="0.0" y="1055.6666666666667" width="351" height="20.333333333333258"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIc-l7-33D">
+                                            <rect key="frame" x="0.0" y="1090" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="BRV 120 - Foundation of the Christian Faith">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="DDl-kX-HDv"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JSe-tD-Cbk">
+                                            <rect key="frame" x="0.0" y="1124" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="BRV 220 - Preaching the Gospel of the Kingdom with Revelation and Authority">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="9oc-J9-YGo"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BfS-KN-kyD">
+                                            <rect key="frame" x="0.0" y="1158" width="351" height="20"/>
+                                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="UnCheckbox">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="BRV 103 - How to Study the Bible">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                            </state>
+                                            <state key="selected" image="Checkbox"/>
+                                            <connections>
+                                                <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="ApF-MY-gwB"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="X35-gn-VeS" secondAttribute="trailing" id="0MQ-OY-Ijc"/>
+                                        <constraint firstItem="X35-gn-VeS" firstAttribute="leading" secondItem="YLP-iK-8AW" secondAttribute="leading" id="bVP-pY-Nn2"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="YLP-iK-8AW" secondAttribute="trailing" id="B3C-QZ-cLm"/>
+                                <constraint firstItem="YLP-iK-8AW" firstAttribute="width" secondItem="APS-sR-3gc" secondAttribute="width" id="EEd-gv-pj1"/>
+                                <constraint firstItem="YLP-iK-8AW" firstAttribute="top" secondItem="APS-sR-3gc" secondAttribute="top" id="OH3-YQ-nGV"/>
+                                <constraint firstItem="YLP-iK-8AW" firstAttribute="leading" secondItem="APS-sR-3gc" secondAttribute="leading" id="jmy-CC-emV"/>
+                                <constraint firstAttribute="bottom" secondItem="YLP-iK-8AW" secondAttribute="bottom" id="qYa-eA-THj"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="psZ-Wr-u6X"/>
+                        </scrollView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Please select the courses you have completed in order to generate the degree audit." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
+                            <rect key="frame" x="8" y="42.666666666666657" width="398" height="52.333333333333343"/>
+                            <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
+                            <rect key="frame" x="20" y="514" width="374" height="32"/>
+                            <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="GENERATE DEGREE AUDIT">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="associateDegreeReport:" destination="-1" eventType="touchUpInside" id="VF1-Aj-jTY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ySm-ep-ARA" firstAttribute="leading" secondItem="yef-mP-bUK" secondAttribute="leading" constant="8" id="0NS-8h-HEe"/>
+                        <constraint firstItem="APS-sR-3gc" firstAttribute="leading" secondItem="yef-mP-bUK" secondAttribute="leadingMargin" constant="25" id="1DR-bK-C5W"/>
+                        <constraint firstAttribute="trailing" secondItem="a5m-sP-CIf" secondAttribute="trailing" constant="8" id="7tc-iA-TXA"/>
+                        <constraint firstItem="uqR-fp-k5w" firstAttribute="leading" secondItem="yef-mP-bUK" secondAttribute="leading" constant="8" id="8Db-ea-sLc"/>
+                        <constraint firstItem="APS-sR-3gc" firstAttribute="top" secondItem="ySm-ep-ARA" secondAttribute="bottom" constant="10" id="B6v-0Z-3zF"/>
+                        <constraint firstItem="jGd-U2-vHi" firstAttribute="leading" secondItem="yef-mP-bUK" secondAttribute="leading" constant="20" id="Cbo-YC-VWg"/>
+                        <constraint firstAttribute="trailing" secondItem="uqR-fp-k5w" secondAttribute="trailing" constant="8" id="Cq6-Vl-Fn2"/>
+                        <constraint firstAttribute="trailing" secondItem="jGd-U2-vHi" secondAttribute="trailing" constant="20" id="F9F-9O-BaD"/>
+                        <constraint firstItem="a5m-sP-CIf" firstAttribute="top" secondItem="yef-mP-bUK" secondAttribute="top" constant="161" id="KDQ-66-oJM"/>
+                        <constraint firstAttribute="trailing" secondItem="ySm-ep-ARA" secondAttribute="trailing" constant="8" id="Kyu-6w-nOW"/>
+                        <constraint firstItem="a5m-sP-CIf" firstAttribute="leading" secondItem="yef-mP-bUK" secondAttribute="leading" constant="8" id="Oo9-lX-U6w"/>
+                        <constraint firstAttribute="bottom" secondItem="jGd-U2-vHi" secondAttribute="bottom" constant="80" id="Xlm-V0-ZUi"/>
+                        <constraint firstAttribute="trailing" secondItem="APS-sR-3gc" secondAttribute="trailing" constant="30" id="XvL-Ma-suk"/>
+                        <constraint firstItem="APS-sR-3gc" firstAttribute="top" secondItem="yef-mP-bUK" secondAttribute="top" constant="105" id="bWm-1X-Iyf"/>
+                        <constraint firstItem="ySm-ep-ARA" firstAttribute="top" secondItem="uqR-fp-k5w" secondAttribute="bottom" constant="0.5" id="brt-vF-hK0"/>
+                        <constraint firstItem="uqR-fp-k5w" firstAttribute="top" secondItem="yef-mP-bUK" secondAttribute="top" constant="15" id="duX-em-EXr"/>
+                        <constraint firstAttribute="bottom" secondItem="APS-sR-3gc" secondAttribute="bottom" constant="120" id="eZJ-bO-7QC"/>
+                        <constraint firstItem="jGd-U2-vHi" firstAttribute="top" secondItem="APS-sR-3gc" secondAttribute="bottom" constant="8" symbolic="YES" id="ktS-Tm-lAA"/>
+                        <constraint firstAttribute="bottom" secondItem="a5m-sP-CIf" secondAttribute="bottom" id="oyL-2f-a3I"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yef-mP-bUK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BI9-f8-kz5"/>
+                <constraint firstItem="yef-mP-bUK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EoN-vm-BtG"/>
+                <constraint firstAttribute="trailing" secondItem="yef-mP-bUK" secondAttribute="trailing" id="Nta-uj-zOr"/>
+                <constraint firstItem="aH2-dw-74A" firstAttribute="bottom" secondItem="yef-mP-bUK" secondAttribute="bottom" constant="110" id="zZH-vV-G5C"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="aH2-dw-74A"/>
+            <point key="canvasLocation" x="83.5" y="-11.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Checkbox" width="20" height="20"/>
+        <image name="UnCheckbox" width="20" height="20"/>
+        <image name="usmlogo_background4" width="1388" height="1372"/>
+    </resources>
+</document>

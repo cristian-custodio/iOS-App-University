@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZQM-89-GCD">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController title="Home" id="9pv-A4-QxB" customClass="HomeViewController" customModule="usmapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bannerbackground2" translatesAutoresizingMaskIntoConstraints="NO" id="WHY-YM-F1F">
+                                <rect key="frame" x="-2" y="0.0" width="377" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="PT4-Jy-s8P"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="b55-27-LY4">
+                                <rect key="frame" x="0.0" y="283" width="375" height="358"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bjw-G3-YaE">
+                                <rect key="frame" x="0.0" y="97" width="375" height="181"/>
+                            </scrollView>
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="5ZY-H0-lMO">
+                                <rect key="frame" x="167" y="281" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X3R-ol-era">
+                                <rect key="frame" x="16" y="318" width="343" height="303"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwb-gJ-gVj">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="ADMISSIONS">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="admissionsButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="kqO-kY-4Re"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMY-gw-o3p">
+                                        <rect key="frame" x="0.0" y="105" width="167" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="DEGREE PROGRAMS">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="degreeProgramHomeButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Nej-sV-Vld"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHv-RY-fdg">
+                                        <rect key="frame" x="0.0" y="213" width="167" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="DEGREE AUDIT">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="degreeAuditHomeButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ydB-jr-zdr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBs-RN-god">
+                                        <rect key="frame" x="176" y="105" width="167" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="INTERNSHIP">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="internshipHomeButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="k4x-Nl-gSu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88f-Tn-PDg">
+                                        <rect key="frame" x="176" y="0.0" width="167" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="NON-CREDIT">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nonCreditHomeButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8ra-nD-Z0i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lff-aO-6Tq">
+                                        <rect key="frame" x="176" y="213" width="167" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="CERTIFICATES">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="certificateProgramHomeButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="kki-vC-NVO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.098039215686274508" green="0.20392156862745098" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b55-27-LY4" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="19t-q1-e5g"/>
+                            <constraint firstItem="X3R-ol-era" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="4Sx-po-VZk"/>
+                            <constraint firstItem="5ZY-H0-lMO" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="167" id="CjV-kd-KzB"/>
+                            <constraint firstItem="X3R-ol-era" firstAttribute="centerX" secondItem="b55-27-LY4" secondAttribute="centerX" id="Dnm-0a-x7L"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="X3R-ol-era" secondAttribute="bottom" constant="20" id="HcH-P2-LdS"/>
+                            <constraint firstItem="b55-27-LY4" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="IBA-cT-4yc"/>
+                            <constraint firstItem="Bjw-G3-YaE" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="JCo-j6-q8e"/>
+                            <constraint firstItem="Bjw-G3-YaE" firstAttribute="top" secondItem="WHY-YM-F1F" secondAttribute="bottom" id="RKK-UK-drR"/>
+                            <constraint firstItem="WHY-YM-F1F" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-18" id="SOh-1b-JYH"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="5ZY-H0-lMO" secondAttribute="trailing" constant="169" id="Stn-xM-Wnb"/>
+                            <constraint firstItem="b55-27-LY4" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="XEG-y4-PsP"/>
+                            <constraint firstItem="Bjw-G3-YaE" firstAttribute="top" secondItem="WHY-YM-F1F" secondAttribute="bottom" id="XTr-vc-Wfk"/>
+                            <constraint firstItem="WHY-YM-F1F" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="hH1-Sd-2gf"/>
+                            <constraint firstItem="b55-27-LY4" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="283" id="k2j-lb-Cm7"/>
+                            <constraint firstItem="Bjw-G3-YaE" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="l6H-1L-X6T"/>
+                            <constraint firstItem="X3R-ol-era" firstAttribute="top" secondItem="5ZY-H0-lMO" secondAttribute="bottom" id="pDD-aS-206"/>
+                            <constraint firstAttribute="trailing" secondItem="WHY-YM-F1F" secondAttribute="trailing" id="qIF-h5-Pk0"/>
+                            <constraint firstItem="5ZY-H0-lMO" firstAttribute="top" secondItem="Bjw-G3-YaE" secondAttribute="bottom" constant="3" id="wOZ-n4-Xh8"/>
+                            <constraint firstItem="b55-27-LY4" firstAttribute="top" secondItem="Bjw-G3-YaE" secondAttribute="bottom" constant="5" id="zU7-kw-gil"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="pageControl" destination="5ZY-H0-lMO" id="05G-Ar-mIL"/>
+                        <outlet property="slideScrollView" destination="Bjw-G3-YaE" id="jp4-6X-17A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="744.79999999999995" y="-322.90640394088672"/>
+        </scene>
+        <!--Degree Audit-->
+        <scene sceneID="Vto-a4-2eL">
+            <objects>
+                <viewController title="Degree Audit" id="nlN-ku-AtM" customClass="DegreeAuditViewController" customModule="usmapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AHe-3d-Igf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="wfV-3e-V8t">
+                                <rect key="frame" x="0.0" y="178" width="375" height="358"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Degree Audit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pHL-uu-uOP">
+                                <rect key="frame" x="81" y="35" width="213" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LGE-M7-g8O">
+                                <rect key="frame" x="16" y="85" width="343" height="85"/>
+                                <string key="text">Welcome to the University's Degree Audit Module. Here you can select the courses you have taken to verify the requirements needed for graduation.  Please select your degree program.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradcap" translatesAutoresizingMaskIntoConstraints="NO" id="Prw-YC-gBT">
+                                <rect key="frame" x="39" y="247" width="296" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="xnf-Uj-LGV">
+                                <rect key="frame" x="16" y="579" width="166" height="42"/>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <state key="normal" title="ASSOCIATES">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="associateDegree:" destination="nlN-ku-AtM" eventType="touchUpInside" id="zn1-P2-kxQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0k-hD-jl9">
+                                <rect key="frame" x="197" y="579" width="162" height="42"/>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <state key="normal" title="BACHELORS">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bachelorsDegree:" destination="nlN-ku-AtM" eventType="touchUpInside" id="Yk4-AG-Ues"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dAn-om-qLz" firstAttribute="trailing" secondItem="pHL-uu-uOP" secondAttribute="trailing" constant="81" id="0xW-fV-CAu"/>
+                            <constraint firstItem="wfV-3e-V8t" firstAttribute="top" secondItem="LGE-M7-g8O" secondAttribute="bottom" constant="8" id="1bQ-kZ-1BA"/>
+                            <constraint firstItem="u0k-hD-jl9" firstAttribute="leading" secondItem="xnf-Uj-LGV" secondAttribute="trailing" constant="15" id="8Kx-Cq-KSE"/>
+                            <constraint firstItem="wfV-3e-V8t" firstAttribute="leading" secondItem="dAn-om-qLz" secondAttribute="leading" id="9ra-g8-5XM"/>
+                            <constraint firstItem="xnf-Uj-LGV" firstAttribute="leading" secondItem="dAn-om-qLz" secondAttribute="leading" constant="16" id="ARx-kv-r9E"/>
+                            <constraint firstItem="wfV-3e-V8t" firstAttribute="trailing" secondItem="dAn-om-qLz" secondAttribute="trailing" id="E8A-4T-YWO"/>
+                            <constraint firstItem="LGE-M7-g8O" firstAttribute="leading" secondItem="dAn-om-qLz" secondAttribute="leading" constant="16" id="H9N-0f-eyT"/>
+                            <constraint firstItem="pHL-uu-uOP" firstAttribute="leading" secondItem="dAn-om-qLz" secondAttribute="leading" constant="81" id="Hg5-xo-1Ie"/>
+                            <constraint firstItem="dAn-om-qLz" firstAttribute="trailing" secondItem="LGE-M7-g8O" secondAttribute="trailing" constant="16" id="Rok-Xi-bHU"/>
+                            <constraint firstItem="u0k-hD-jl9" firstAttribute="top" secondItem="xnf-Uj-LGV" secondAttribute="top" id="Wpb-jC-t9O"/>
+                            <constraint firstItem="pHL-uu-uOP" firstAttribute="top" secondItem="AHe-3d-Igf" secondAttribute="topMargin" constant="35" id="azB-NG-KMX"/>
+                            <constraint firstItem="dAn-om-qLz" firstAttribute="bottom" secondItem="wfV-3e-V8t" secondAttribute="bottom" constant="105" id="gUZ-Oj-Kj3"/>
+                            <constraint firstItem="LGE-M7-g8O" firstAttribute="top" secondItem="pHL-uu-uOP" secondAttribute="bottom" constant="8" id="gZm-6c-Ofs"/>
+                            <constraint firstAttribute="bottom" secondItem="xnf-Uj-LGV" secondAttribute="bottom" constant="20" symbolic="YES" id="hyi-y2-XMa"/>
+                            <constraint firstItem="u0k-hD-jl9" firstAttribute="width" secondItem="xnf-Uj-LGV" secondAttribute="width" constant="-4" id="lnP-mw-BkM"/>
+                            <constraint firstItem="xnf-Uj-LGV" firstAttribute="top" secondItem="wfV-3e-V8t" secondAttribute="bottom" constant="43" id="luD-pv-ZFo"/>
+                            <constraint firstItem="wfV-3e-V8t" firstAttribute="top" secondItem="dAn-om-qLz" secondAttribute="top" constant="178" id="oeF-7i-IUH"/>
+                            <constraint firstItem="dAn-om-qLz" firstAttribute="trailing" secondItem="u0k-hD-jl9" secondAttribute="trailing" constant="16" id="wKc-I0-bt8"/>
+                            <constraint firstItem="xnf-Uj-LGV" firstAttribute="baseline" secondItem="u0k-hD-jl9" secondAttribute="firstBaseline" identifier="associateButton" id="xY6-h4-5rd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dAn-om-qLz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Degree Audit" image="degreeAudit" id="vZ8-ja-is8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0cx-Mh-FwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456.8" y="6.6502463054187197"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="RegistrationViewController" customModule="usmapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-ad-AfR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mbz-ad-AfR" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="0Ns-dg-OUx"/>
+                            <constraint firstItem="Mbz-ad-AfR" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="NXX-bb-qDs"/>
+                            <constraint firstItem="Mbz-ad-AfR" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="jiM-8E-x0c"/>
+                            <constraint firstItem="Mbz-ad-AfR" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="y7V-Of-49G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Register" image="Register" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="studentRegistrationForm" destination="Mbz-ad-AfR" id="MYU-22-HUP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="413.79310344827587"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v53-PE-1jM">
+            <objects>
+                <navigationController id="ZQM-89-GCD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" alpha="0.90000000000000002" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="p9p-MB-Je7">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.10041018575429916" green="0.20879903435707092" blue="0.34578904509544373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="relationship" relationship="rootViewController" id="1kh-w7-rLa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQB-nK-Gbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-935" y="-21"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController title="Home" id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="USM" id="8so-6l-aO6">
+                        <barButtonItem key="rightBarButtonItem" image="usmLogoMenu9" style="done" id="2jW-Yr-3vn">
+                            <connections>
+                                <action selector="usmLogo:" destination="4WR-L5-YVO" id="A6W-KH-opo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.10196078431372549" green="0.20784313725490194" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="nlN-ku-AtM" kind="relationship" relationship="viewControllers" id="dmd-Eb-xk0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+                <exit id="4WR-L5-YVO" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Register" width="30" height="30"/>
+        <image name="bannerbackground2" width="739" height="185"/>
+        <image name="degreeAudit" width="30" height="30"/>
+        <image name="gradcap" width="700" height="490"/>
+        <image name="home" width="30" height="30"/>
+        <image name="usmLogoMenu9" width="60" height="60"/>
+        <image name="usmlogo_background4" width="1388" height="1372"/>
+    </resources>
+</document>

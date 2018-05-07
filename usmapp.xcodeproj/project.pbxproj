@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951D5DEB208EBB60006376AA /* SupernaturalCertificate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951D5DEA208EBB60006376AA /* SupernaturalCertificate.xib */; };
+		951D5DF0208EF760006376AA /* BachelorsDegree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951D5DED208EF760006376AA /* BachelorsDegree.xib */; };
+		951D5DF1208EF760006376AA /* DegreePrograms.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951D5DEE208EF760006376AA /* DegreePrograms.xib */; };
+		951D5DF2208EF760006376AA /* AssociateDegree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951D5DEF208EF760006376AA /* AssociateDegree.xib */; };
+		9526D1F020853070003F3AB0 /* degreeAuditAssociateResults.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9526D1EF20853070003F3AB0 /* degreeAuditAssociateResults.xib */; };
+		9526D1F220854BB9003F3AB0 /* degreeAuditAssociate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9526D1F120854BB9003F3AB0 /* degreeAuditAssociate.xib */; };
+		952B8CC42089B09700B03FF5 /* admissions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952B8CC32089B09700B03FF5 /* admissions.xib */; };
+		952B8CC7208A75B100B03FF5 /* Non-Credit-Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952B8CC5208A75B100B03FF5 /* Non-Credit-Application.xib */; };
+		952B8CC8208A75B100B03FF5 /* Non-Credit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952B8CC6208A75B100B03FF5 /* Non-Credit.xib */; };
+		952B8CCE208A9D8100B03FF5 /* supernatural-Internship.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952B8CCC208A9D8000B03FF5 /* supernatural-Internship.xib */; };
+		952B8CD3208AC0AA00B03FF5 /* supernatural-internship-application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952B8CD2208AC0AA00B03FF5 /* supernatural-internship-application.xib */; };
+		952CA27C208E61BE00044C2A /* CertificatePrograms.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952CA27B208E61BE00044C2A /* CertificatePrograms.xib */; };
+		952CA283208E78B300044C2A /* PastoralCareCertificate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952CA282208E78B300044C2A /* PastoralCareCertificate.xib */; };
+		9545B699208782D600621EDF /* degreeAuditBachelors.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9545B697208782D600621EDF /* degreeAuditBachelors.xib */; };
+		9545B69A208782D600621EDF /* degreeAuditBachelorsResults.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9545B698208782D600621EDF /* degreeAuditBachelorsResults.xib */; };
+		959C4596207C01BF009FA695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4595207C01BF009FA695 /* AppDelegate.swift */; };
+		959C4598207C01BF009FA695 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4597207C01BF009FA695 /* HomeViewController.swift */; };
+		959C459A207C01BF009FA695 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4599207C01BF009FA695 /* RegistrationViewController.swift */; };
+		959C459D207C01BF009FA695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959C459B207C01BF009FA695 /* Main.storyboard */; };
+		959C459F207C01C0009FA695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959C459E207C01C0009FA695 /* Assets.xcassets */; };
+		959C45A2207C01C0009FA695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959C45A0207C01C0009FA695 /* LaunchScreen.storyboard */; };
+		959C45AC207C2E2D009FA695 /* DegreeAuditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C45AB207C2E2D009FA695 /* DegreeAuditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		951D5DEA208EBB60006376AA /* SupernaturalCertificate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupernaturalCertificate.xib; sourceTree = "<group>"; };
+		951D5DED208EF760006376AA /* BachelorsDegree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BachelorsDegree.xib; sourceTree = "<group>"; };
+		951D5DEE208EF760006376AA /* DegreePrograms.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DegreePrograms.xib; sourceTree = "<group>"; };
+		951D5DEF208EF760006376AA /* AssociateDegree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssociateDegree.xib; sourceTree = "<group>"; };
+		9526D1EF20853070003F3AB0 /* degreeAuditAssociateResults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditAssociateResults.xib; sourceTree = "<group>"; };
+		9526D1F120854BB9003F3AB0 /* degreeAuditAssociate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditAssociate.xib; sourceTree = "<group>"; };
+		952B8CC32089B09700B03FF5 /* admissions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = admissions.xib; sourceTree = "<group>"; };
+		952B8CC5208A75B100B03FF5 /* Non-Credit-Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Non-Credit-Application.xib"; sourceTree = "<group>"; };
+		952B8CC6208A75B100B03FF5 /* Non-Credit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Non-Credit.xib"; sourceTree = "<group>"; };
+		952B8CCC208A9D8000B03FF5 /* supernatural-Internship.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "supernatural-Internship.xib"; sourceTree = "<group>"; };
+		952B8CD2208AC0AA00B03FF5 /* supernatural-internship-application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "supernatural-internship-application.xib"; sourceTree = "<group>"; };
+		952CA27B208E61BE00044C2A /* CertificatePrograms.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CertificatePrograms.xib; sourceTree = "<group>"; };
+		952CA282208E78B300044C2A /* PastoralCareCertificate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastoralCareCertificate.xib; sourceTree = "<group>"; };
+		9545B697208782D600621EDF /* degreeAuditBachelors.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelors.xib; sourceTree = "<group>"; };
+		9545B698208782D600621EDF /* degreeAuditBachelorsResults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelorsResults.xib; sourceTree = "<group>"; };
+		959C4592207C01BF009FA695 /* usmapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usmapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959C4595207C01BF009FA695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		959C4597207C01BF009FA695 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		959C4599207C01BF009FA695 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		959C459C207C01BF009FA695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		959C459E207C01C0009FA695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		959C45A1207C01C0009FA695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		959C45A3207C01C0009FA695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959C45AB207C2E2D009FA695 /* DegreeAuditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeAuditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959C458F207C01BF009FA695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951D5DEC208EF32C006376AA /* DegreePrograms */ = {
+			isa = PBXGroup;
+			children = (
+				951D5DEE208EF760006376AA /* DegreePrograms.xib */,
+				951D5DEF208EF760006376AA /* AssociateDegree.xib */,
+				951D5DED208EF760006376AA /* BachelorsDegree.xib */,
+			);
+			path = DegreePrograms;
+			sourceTree = "<group>";
+		};
+		951D5DF3208F9500006376AA /* TabBar Controller Menu */ = {
+			isa = PBXGroup;
+			children = (
+				959C4599207C01BF009FA695 /* RegistrationViewController.swift */,
+				959C45AB207C2E2D009FA695 /* DegreeAuditViewController.swift */,
+			);
+			path = "TabBar Controller Menu";
+			sourceTree = "<group>";
+		};
+		952B8CCF208A9D9100B03FF5 /* Non-Credit */ = {
+			isa = PBXGroup;
+			children = (
+				952B8CC6208A75B100B03FF5 /* Non-Credit.xib */,
+				952B8CC5208A75B100B03FF5 /* Non-Credit-Application.xib */,
+			);
+			path = "Non-Credit";
+			sourceTree = "<group>";
+		};
+		952B8CD0208A9DB300B03FF5 /* Internship */ = {
+			isa = PBXGroup;
+			children = (
+				952B8CCC208A9D8000B03FF5 /* supernatural-Internship.xib */,
+				952B8CD2208AC0AA00B03FF5 /* supernatural-internship-application.xib */,
+			);
+			path = Internship;
+			sourceTree = "<group>";
+		};
+		952B8CD1208A9DC600B03FF5 /* Degree Audit Module */ = {
+			isa = PBXGroup;
+			children = (
+				9526D1F120854BB9003F3AB0 /* degreeAuditAssociate.xib */,
+				9526D1EF20853070003F3AB0 /* degreeAuditAssociateResults.xib */,
+				9545B697208782D600621EDF /* degreeAuditBachelors.xib */,
+				9545B698208782D600621EDF /* degreeAuditBachelorsResults.xib */,
+			);
+			path = "Degree Audit Module";
+			sourceTree = "<group>";
+		};
+		952CA27D208E663A00044C2A /* CertificatePrograms */ = {
+			isa = PBXGroup;
+			children = (
+				952CA27B208E61BE00044C2A /* CertificatePrograms.xib */,
+				951D5DEA208EBB60006376AA /* SupernaturalCertificate.xib */,
+				952CA282208E78B300044C2A /* PastoralCareCertificate.xib */,
+			);
+			path = CertificatePrograms;
+			sourceTree = "<group>";
+		};
+		959C4589207C01BF009FA695 = {
+			isa = PBXGroup;
+			children = (
+				959C4594207C01BF009FA695 /* usmapp */,
+				959C4593207C01BF009FA695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959C4593207C01BF009FA695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959C4592207C01BF009FA695 /* usmapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959C4594207C01BF009FA695 /* usmapp */ = {
+			isa = PBXGroup;
+			children = (
+				951D5DEC208EF32C006376AA /* DegreePrograms */,
+				952CA27D208E663A00044C2A /* CertificatePrograms */,
+				952B8CD1208A9DC600B03FF5 /* Degree Audit Module */,
+				952B8CD0208A9DB300B03FF5 /* Internship */,
+				951D5DF3208F9500006376AA /* TabBar Controller Menu */,
+				952B8CCF208A9D9100B03FF5 /* Non-Credit */,
+				959C4595207C01BF009FA695 /* AppDelegate.swift */,
+				959C4597207C01BF009FA695 /* HomeViewController.swift */,
+				952B8CC32089B09700B03FF5 /* admissions.xib */,
+				959C459B207C01BF009FA695 /* Main.storyboard */,
+				959C459E207C01C0009FA695 /* Assets.xcassets */,
+				959C45A0207C01C0009FA695 /* LaunchScreen.storyboard */,
+				959C45A3207C01C0009FA695 /* Info.plist */,
+			);
+			path = usmapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959C4591207C01BF009FA695 /* usmapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959C45A6207C01C0009FA695 /* Build configuration list for PBXNativeTarget "usmapp" */;
+			buildPhases = (
+				959C458E207C01BF009FA695 /* Sources */,
+				959C458F207C01BF009FA695 /* Frameworks */,
+				959C4590207C01BF009FA695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = usmapp;
+			productName = usmapp;
+			productReference = 959C4592207C01BF009FA695 /* usmapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959C458A207C01BF009FA695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Cristian Custodio";
+				TargetAttributes = {
+					959C4591207C01BF009FA695 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 959C458D207C01BF009FA695 /* Build configuration list for PBXProject "usmapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959C4589207C01BF009FA695;
+			productRefGroup = 959C4593207C01BF009FA695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959C4591207C01BF009FA695 /* usmapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959C4590207C01BF009FA695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952CA283208E78B300044C2A /* PastoralCareCertificate.xib in Resources */,
+				9526D1F020853070003F3AB0 /* degreeAuditAssociateResults.xib in Resources */,
+				952B8CC42089B09700B03FF5 /* admissions.xib in Resources */,
+				951D5DF0208EF760006376AA /* BachelorsDegree.xib in Resources */,
+				952CA27C208E61BE00044C2A /* CertificatePrograms.xib in Resources */,
+				959C45A2207C01C0009FA695 /* LaunchScreen.storyboard in Resources */,
+				9526D1F220854BB9003F3AB0 /* degreeAuditAssociate.xib in Resources */,
+				951D5DEB208EBB60006376AA /* SupernaturalCertificate.xib in Resources */,
+				952B8CC7208A75B100B03FF5 /* Non-Credit-Application.xib in Resources */,
+				9545B699208782D600621EDF /* degreeAuditBachelors.xib in Resources */,
+				952B8CCE208A9D8100B03FF5 /* supernatural-Internship.xib in Resources */,
+				959C459F207C01C0009FA695 /* Assets.xcassets in Resources */,
+				951D5DF2208EF760006376AA /* AssociateDegree.xib in Resources */,
+				951D5DF1208EF760006376AA /* DegreePrograms.xib in Resources */,
+				952B8CD3208AC0AA00B03FF5 /* supernatural-internship-application.xib in Resources */,
+				9545B69A208782D600621EDF /* degreeAuditBachelorsResults.xib in Resources */,
+				952B8CC8208A75B100B03FF5 /* Non-Credit.xib in Resources */,
+				959C459D207C01BF009FA695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959C458E207C01BF009FA695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959C459A207C01BF009FA695 /* RegistrationViewController.swift in Sources */,
+				959C4596207C01BF009FA695 /* AppDelegate.swift in Sources */,
+				959C45AC207C2E2D009FA695 /* DegreeAuditViewController.swift in Sources */,
+				959C4598207C01BF009FA695 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		959C459B207C01BF009FA695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959C459C207C01BF009FA695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		959C45A0207C01C0009FA695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959C45A1207C01C0009FA695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959C45A4207C01C0009FA695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		959C45A5207C01C0009FA695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		959C45A7207C01C0009FA695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ3MN92RRX;
+				INFOPLIST_FILE = usmapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.faithapps.usmapp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		959C45A8207C01C0009FA695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ3MN92RRX;
+				INFOPLIST_FILE = usmapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = co.faithapps.usmapp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959C458D207C01BF009FA695 /* Build configuration list for PBXProject "usmapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959C45A4207C01C0009FA695 /* Debug */,
+				959C45A5207C01C0009FA695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959C45A6207C01C0009FA695 /* Build configuration list for PBXNativeTarget "usmapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959C45A7207C01C0009FA695 /* Debug */,
+				959C45A8207C01C0009FA695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 959C458A207C01BF009FA695 /* Project object */;
+}
