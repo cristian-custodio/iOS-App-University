@@ -24,7 +24,7 @@ class RegistrationViewController: UIViewController, UIWebViewDelegate {
         //Enumerate Indicator
         activityIndicator.center = self.view.center
         activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        activityIndicator.style = UIActivityIndicatorView.Style.gray
         view.addSubview(activityIndicator)
         
         //Load Registration URL

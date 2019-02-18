@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  usmapp
 //
-//  Created by Cristian Custodio and Steve Toro on 4/9/18.
+//  Created by Cristian Custodio 4/9/18.
 //  Copyright © 2018 Cristian Custodio and Steve Toro. All rights reserved.
 //
 
@@ -85,7 +85,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         //Enumerate Indicator
         activityIndicator.center = self.view.center
         activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        activityIndicator.style = UIActivityIndicatorView.Style.gray
         view.addSubview(activityIndicator)
         nonCreditRegistration?.delegate = self
         
@@ -114,7 +114,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         //Enumerate Indicator
         activityIndicator.center = self.view.center
         activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        activityIndicator.style = UIActivityIndicatorView.Style.gray
         view.addSubview(activityIndicator)
         supernaturalInternship?.delegate = self
         
@@ -152,7 +152,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
     //Variable Declarations
     @IBOutlet weak var slideScrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
-    let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+    let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
     let homeImage = #imageLiteral(resourceName: "home")
     let degreeAudit = #imageLiteral(resourceName: "degreeAudit")
     let register = #imageLiteral(resourceName: "Register")
@@ -169,57 +169,57 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         //Admission View Initialization
         AdmissionsView = instanceFromNib(XIBFilename: "admissions")
         AdmissionsView?.frame = self.view.bounds
-        AdmissionsView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        AdmissionsView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //NonCredit View Initialization
         nonCreditView = instanceFromNib(XIBFilename: "Non-Credit")
         nonCreditView?.frame = self.view.bounds
-        nonCreditView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        nonCreditView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //NonCreditRegister View Initialization
         nonCreditViewRegister = instanceFromNib(XIBFilename: "Non-Credit-Application")
         nonCreditViewRegister?.frame = self.view.bounds
-        nonCreditViewRegister?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        nonCreditViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Internship View Initialization
         internshipView = instanceFromNib(XIBFilename: "supernatural-Internship")
         internshipView?.frame = self.view.bounds
-        internshipView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        internshipView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //InternshipRegister View Initialization
         internshipViewRegister = instanceFromNib(XIBFilename: "supernatural-internship-application")
         internshipViewRegister?.frame = self.view.bounds
-        internshipViewRegister?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        internshipViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Certificate Programs View Initialization
         certificatePrograms = instanceFromNib(XIBFilename: "CertificatePrograms")
         certificatePrograms?.frame = self.view.bounds
-        certificatePrograms?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        certificatePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Pastoral Care View Initialization
         pastoralCare = instanceFromNib(XIBFilename: "PastoralCareCertificate")
         pastoralCare?.frame = self.view.bounds
-        pastoralCare?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        pastoralCare?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Supernatural View Initialization
         supernaturalCertificate = instanceFromNib(XIBFilename: "SupernaturalCertificate")
         supernaturalCertificate?.frame = self.view.bounds
-        supernaturalCertificate?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        supernaturalCertificate?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Degree Programs View Initialization
         degreePrograms = instanceFromNib(XIBFilename: "DegreePrograms")
         degreePrograms?.frame = self.view.bounds
-        degreePrograms?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        degreePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Associate Degree Programs View Initialization
         associatePrograms = instanceFromNib(XIBFilename: "AssociateDegree")
         associatePrograms?.frame = self.view.bounds
-        associatePrograms?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        associatePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Bachelors Degree Programs View Initialization
         bachelorsProgram = instanceFromNib(XIBFilename: "BachelorsDegree")
         bachelorsProgram?.frame = self.view.bounds
-        bachelorsProgram?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        bachelorsProgram?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         
         

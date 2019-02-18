@@ -174,24 +174,24 @@ class DegreeAuditViewController: UIViewController,MFMailComposeViewControllerDel
         //Initialize Associate Degree Selection UIView and prepare contraints
         degreeAuditAssociatesView = instanceFromNib(XIBFilename: "degreeAuditAssociate")
         degreeAuditAssociatesView?.frame = self.view.bounds
-        degreeAuditAssociatesView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        degreeAuditAssociatesView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         loadSavedCheckboxesAssociatesDegree()
         
         //Initialize Associate Degree Selection Results UIView and prepare contraints
         degreeAuditAssociatesViewResults = instanceFromNib(XIBFilename: "degreeAuditAssociateResults")
         degreeAuditAssociatesViewResults?.frame = self.view.bounds
-        degreeAuditAssociatesViewResults?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        degreeAuditAssociatesViewResults?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Initialize Bachelors Degree Selection UIView and prepare contraints
         degreeAuditBachelorsView = instanceFromNib(XIBFilename: "degreeAuditBachelors")
         degreeAuditBachelorsView?.frame = self.view.bounds
-        degreeAuditBachelorsView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        degreeAuditBachelorsView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         loadSavedCheckBoxesBachelorsDegree()
         
         //Initialize Bachelors Degree Selection Results UIView and prepare contraints
         degreeAuditBachelorsViewResults = instanceFromNib(XIBFilename: "degreeAuditBachelorsResults")
         degreeAuditBachelorsViewResults?.frame = self.view.bounds
-        degreeAuditBachelorsViewResults?.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        degreeAuditBachelorsViewResults?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
     }
     
     override func didReceiveMemoryWarning() {
