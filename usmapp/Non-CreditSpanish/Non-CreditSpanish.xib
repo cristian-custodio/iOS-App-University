@@ -25,7 +25,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
                             <rect key="frame" x="15" y="526" width="384" height="30"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Return">
+                            <state key="normal" title="Inicio">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
@@ -36,13 +36,13 @@
                             <rect key="frame" x="-6" y="-6" width="420" height="257"/>
                             <gestureRecognizers/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Non-Credit Courses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cursos Sin-Credito" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
                             <rect key="frame" x="8" y="321" width="398" height="27.666666666666686"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="The University invites you to audit our courses and begin to learn to wlak in the Supernatural Power of God." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="La Universidad le invita a auditar nuestros cursos y empezar a aprender a caminar en el poder sobrenatural de Dios." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
                             <rect key="frame" x="5" y="352" width="404" height="45"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="45" id="GEH-jB-z1g"/>
@@ -55,7 +55,7 @@
                             <rect key="frame" x="90" y="408.66666666666669" width="234" height="29"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                            <state key="normal" title="REGISTER TODAY">
+                            <state key="normal" title="REGÍSTRESE HOY">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>

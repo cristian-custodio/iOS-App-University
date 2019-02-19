@@ -22,7 +22,7 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-sP-CIf">
                             <rect key="frame" x="8" y="212" width="398" height="414"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Supernatural Immersive Experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Experiencia Sobrenatural Inmersiva" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
                             <rect key="frame" x="8" y="302" width="398" height="26"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
@@ -37,7 +37,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
                             <rect key="frame" x="15" y="526" width="384" height="30"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Return">
+                            <state key="normal" title="Inicio">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
@@ -55,7 +55,7 @@
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
                             <rect key="frame" x="15" y="341" width="384" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <string key="text">Is is a special opportunity to receive training from the top leadership of King Jesus International Ministry which will provide you with an immersive experience of preparation for ministerial service with an emphasis on the supernatural power of God.</string>
+                            <string key="text">Es una oportunidad especial de recibir entrenamiento del liderazgo principal del Ministerio Internacional El Rey Jesús en Miami, lo cual le proveerá con una experiencia inmersiva de preparación para el servicio ministerial, con un énfasis en el poder sobrenatural de Dios.</string>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

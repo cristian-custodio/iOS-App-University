@@ -55,7 +55,7 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-sP-CIf">
                             <rect key="frame" x="8" y="161" width="398" height="465"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Associates Degree Audit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auditoría de Grado Asociado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
                             <rect key="frame" x="8" y="15.000000000000002" width="398" height="27.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,7 +67,7 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="YLP-iK-8AW">
                                     <rect key="frame" x="0.0" y="0.0" width="351" height="1178"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supernatural Ministry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Q-sJ-4x8">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministerio Sobrenatural" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Q-sJ-4x8">
                                             <rect key="frame" x="0.0" y="0.0" width="351" height="20.333333333333332"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -79,7 +79,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 101 - Revelation and Power of the Work of Jesus Christ on the Cross I">
+                                                    <fragment content="SUP 101 - Revelación y Poder de la Obra de Jesucristo en la Cruz I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -99,7 +99,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 201 - Revelation and Power of the Work of Jesus Christ on the Cross II">
+                                                    <fragment content="SUP 201 - Revelación y Poder de la Obra de Jesucristo en la Cruz II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -119,7 +119,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 110 - Revelation and Power of the Resurrection of Jesus Christ">
+                                                    <fragment content="SUP 110 - Revelación y Poder de la Resurrección de Jesucristo">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -139,7 +139,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 120 - Faith I">
+                                                    <fragment content="SUP 120 - Fe">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -159,7 +159,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 220 - Faith II">
+                                                    <fragment content="SUP 220 - Fe II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -179,7 +179,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 130 - Prayer I">
+                                                    <fragment content="SUP 130 - Oracion I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -199,7 +199,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 230 - Prayer II">
+                                                    <fragment content="SUP 230 - Oracion II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -219,7 +219,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 140 - Evangelism with Miracles I">
+                                                    <fragment content="SUP 140 - Evangelismo con Milagros I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -239,7 +239,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 260 - Evangelism with Miracles II">
+                                                    <fragment content="SUP 260 - Evangelismo con Milagros II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -259,7 +259,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 210 - Inner Healing and Deliverance">
+                                                    <fragment content="SUP 210 - Sanidad Interior y Liberación">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -279,7 +279,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 240 - Divine Health and Healing">
+                                                    <fragment content="SUP 240 - Salud y Sanidad Divina">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -299,7 +299,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 250 - How to Walk in the Supernatural Power of God I">
+                                                    <fragment content="SUP 250 - Cómo caminar en el Poder Sobrenatural de Dios I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -319,7 +319,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="SUP 350 - How to Walk in the Supernatural Power of God II">
+                                                    <fragment content="SUP 350 - Cómo caminar en el Poder Sobrenatural de Dios II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -333,7 +333,7 @@
                                                 <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="M4D-P7-xtu"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kingdom, Power and Glory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8P-Xi-Guo">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El Reino, El Poder y La Gloria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8P-Xi-Guo">
                                             <rect key="frame" x="0.0" y="476.33333333333337" width="351" height="20.333333333333314"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -345,7 +345,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="KPG 101 - The Apostolic Vision of the House I">
+                                                    <fragment content="KPG 101 - La Visión Apostólica de la Casa I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -365,7 +365,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="KPG 201 - The Apostolic Vision of the House I">
+                                                    <fragment content="KPG 201 - La Visión Apostólica de la Casa II">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -385,7 +385,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="KPG 210 - Kingdom Economic Principles">
+                                                    <fragment content="KPG 210 - Principios de la Economía del Reino">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -405,7 +405,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="KPG 330 - Kingdom Advancement Through Missions">
+                                                    <fragment content="KPG 330 - Avanzando el Reino a través de las Misiones">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -431,7 +431,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="PMI 110 - Introduction to the Five-Fold Ministry">
+                                                    <fragment content="PMI 110 - Introducción al Ministerio Quíntuple">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -451,7 +451,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="PMI 120 - The Formation of the Character and Ministry of a Leader I">
+                                                    <fragment content="PMI 120 - La Formación del Carácter y el Ministerio del Líder I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -471,7 +471,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="PMI 130 - How to Find your Purpose and Calling for your Life I">
+                                                    <fragment content="PMI 130 - Cómo encontrar el Propósito y el Llamado para su vida I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -491,7 +491,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="PMI 210 - Fathering, Family, Marriage and Children I">
+                                                    <fragment content="PMI 210 - Paternidad, La Familia, El Matrimonio y los Hijos I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -511,7 +511,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="PMI 220 - Transformation through the Renewing of the Mind">
+                                                    <fragment content="PMI 220 - Transformación a través de la Renovación de la Mente">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -525,7 +525,7 @@
                                                 <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="7L1-nE-R1e"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOR-WI-ipJ">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Educación General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOR-WI-ipJ">
                                             <rect key="frame" x="0.0" y="851" width="351" height="20.333333333333371"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -537,7 +537,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="GED 260 - The Three Pillars of Health: Diet, Exercise and Rest I">
+                                                    <fragment content="GED 260 - Los Tres Pilares de la Salud: Dieta, Ejercicio y Descanso I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -557,7 +557,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="GED 220 - English Composition">
+                                                    <fragment content="GED 220 - Composición en Español o Inglés">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -571,7 +571,7 @@
                                                 <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="Zl8-TV-CmV"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revelation and Knowledge of God" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8d-f9-s4q">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revelación y Conocimiento de Dios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8d-f9-s4q">
                                             <rect key="frame" x="0.0" y="953.33333333333326" width="351" height="20.333333333333371"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -583,7 +583,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="RKG 210 - How to Hear the Voice of God">
+                                                    <fragment content="RKG 210 - Cómo Escuchar la Voz de Dios">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -603,7 +603,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="RKG 310 - The Holy Spirit in the Now I">
+                                                    <fragment content="RKG 310 - El Espíritu Santo en el Ahora I">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -617,7 +617,7 @@
                                                 <action selector="checkBoxTapped:" destination="-1" eventType="touchUpInside" id="cGf-Ha-jhd"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblical Revelation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-p7-Ax7">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revelación Bíblica" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-p7-Ax7">
                                             <rect key="frame" x="0.0" y="1055.6666666666667" width="351" height="20.333333333333258"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -629,7 +629,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="BRV 120 - Foundation of the Christian Faith">
+                                                    <fragment content="BRV 120 - Fundamentos de la Fe Cristiana">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -649,7 +649,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="BRV 220 - Preaching the Gospel of the Kingdom with Revelation and Authority">
+                                                    <fragment content="BRV 220 - Predicando el Evangelio del Reino con Revelación y Autoridad">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -669,7 +669,7 @@
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="UnCheckbox">
                                                 <attributedString key="attributedTitle">
-                                                    <fragment content="BRV 103 - How to Study the Bible">
+                                                    <fragment content="BRV 103 - Cómo Estudiar la Biblia">
                                                         <attributes>
                                                             <color key="NSColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="13" name="Helvetica"/>
@@ -699,7 +699,7 @@
                             </constraints>
                             <viewLayoutGuide key="safeArea" id="psZ-Wr-u6X"/>
                         </scrollView>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Please select the courses you have completed in order to generate the degree audit." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Seleccione los cursos que ha completado para generar la auditoría de título." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
                             <rect key="frame" x="8" y="43.333333333333343" width="398" height="51.666666666666657"/>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
@@ -708,7 +708,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
                             <rect key="frame" x="20" y="514" width="374" height="32"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="GENERATE DEGREE AUDIT">
+                            <state key="normal" title="GENERAR AUDITORÍA DE GRADO">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>

@@ -22,6 +22,24 @@
 		952CA283208E78B300044C2A /* PastoralCareCertificate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952CA282208E78B300044C2A /* PastoralCareCertificate.xib */; };
 		9545B699208782D600621EDF /* degreeAuditBachelors.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9545B697208782D600621EDF /* degreeAuditBachelors.xib */; };
 		9545B69A208782D600621EDF /* degreeAuditBachelorsResults.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9545B698208782D600621EDF /* degreeAuditBachelorsResults.xib */; };
+		9546E24E221B3C8B00467098 /* PastoralCareCertificateSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E24B221B3C8B00467098 /* PastoralCareCertificateSpanish.xib */; };
+		9546E24F221B3C8B00467098 /* CertificateProgramsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E24C221B3C8B00467098 /* CertificateProgramsSpanish.xib */; };
+		9546E250221B3C8B00467098 /* SupernaturalCertificateSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E24D221B3C8B00467098 /* SupernaturalCertificateSpanish.xib */; };
+		9546E256221B536000467098 /* degreeAuditAssociateSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E252221B536000467098 /* degreeAuditAssociateSpanish.xib */; };
+		9546E257221B536000467098 /* degreeAuditAssociateResultsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E253221B536000467098 /* degreeAuditAssociateResultsSpanish.xib */; };
+		9546E258221B536000467098 /* degreeAuditBachelorsResultsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E254221B536000467098 /* degreeAuditBachelorsResultsSpanish.xib */; };
+		9546E259221B536000467098 /* degreeAuditBachelorsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E255221B536000467098 /* degreeAuditBachelorsSpanish.xib */; };
+		9546E25D221B5F8B00467098 /* supernatural-internship-application-spanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E25B221B5F8B00467098 /* supernatural-internship-application-spanish.xib */; };
+		9546E25E221B5F8B00467098 /* supernatural-Internship-spanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E25C221B5F8B00467098 /* supernatural-Internship-spanish.xib */; };
+		9546E262221B608C00467098 /* Non-Credit-ApplicationSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E260221B608C00467098 /* Non-Credit-ApplicationSpanish.xib */; };
+		9546E263221B608C00467098 /* Non-CreditSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E261221B608C00467098 /* Non-CreditSpanish.xib */; };
+		9546E267221B66A800467098 /* DegreeAuditViewControllerSpanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546E265221B66A800467098 /* DegreeAuditViewControllerSpanish.swift */; };
+		9546E268221B66A800467098 /* RegistrationViewControllerSpanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546E266221B66A800467098 /* RegistrationViewControllerSpanish.swift */; };
+		9546E26A221B672A00467098 /* HomeViewControllerSpanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546E269221B672A00467098 /* HomeViewControllerSpanish.swift */; };
+		9546E26C221B6A1600467098 /* admissionsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9546E26B221B6A1600467098 /* admissionsSpanish.xib */; };
+		957E1F67221B326C008EEB2D /* AssociateDegreeSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 957E1F64221B326C008EEB2D /* AssociateDegreeSpanish.xib */; };
+		957E1F68221B326C008EEB2D /* BachelorsDegreeSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 957E1F65221B326C008EEB2D /* BachelorsDegreeSpanish.xib */; };
+		957E1F69221B326C008EEB2D /* DegreeProgramsSpanish.xib in Resources */ = {isa = PBXBuildFile; fileRef = 957E1F66221B326C008EEB2D /* DegreeProgramsSpanish.xib */; };
 		959C4596207C01BF009FA695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4595207C01BF009FA695 /* AppDelegate.swift */; };
 		959C4598207C01BF009FA695 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4597207C01BF009FA695 /* HomeViewController.swift */; };
 		959C459A207C01BF009FA695 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C4599207C01BF009FA695 /* RegistrationViewController.swift */; };
@@ -47,6 +65,24 @@
 		952CA282208E78B300044C2A /* PastoralCareCertificate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastoralCareCertificate.xib; sourceTree = "<group>"; };
 		9545B697208782D600621EDF /* degreeAuditBachelors.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelors.xib; sourceTree = "<group>"; };
 		9545B698208782D600621EDF /* degreeAuditBachelorsResults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelorsResults.xib; sourceTree = "<group>"; };
+		9546E24B221B3C8B00467098 /* PastoralCareCertificateSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastoralCareCertificateSpanish.xib; sourceTree = "<group>"; };
+		9546E24C221B3C8B00467098 /* CertificateProgramsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateProgramsSpanish.xib; sourceTree = "<group>"; };
+		9546E24D221B3C8B00467098 /* SupernaturalCertificateSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupernaturalCertificateSpanish.xib; sourceTree = "<group>"; };
+		9546E252221B536000467098 /* degreeAuditAssociateSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditAssociateSpanish.xib; sourceTree = "<group>"; };
+		9546E253221B536000467098 /* degreeAuditAssociateResultsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditAssociateResultsSpanish.xib; sourceTree = "<group>"; };
+		9546E254221B536000467098 /* degreeAuditBachelorsResultsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelorsResultsSpanish.xib; sourceTree = "<group>"; };
+		9546E255221B536000467098 /* degreeAuditBachelorsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = degreeAuditBachelorsSpanish.xib; sourceTree = "<group>"; };
+		9546E25B221B5F8B00467098 /* supernatural-internship-application-spanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "supernatural-internship-application-spanish.xib"; sourceTree = "<group>"; };
+		9546E25C221B5F8B00467098 /* supernatural-Internship-spanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "supernatural-Internship-spanish.xib"; sourceTree = "<group>"; };
+		9546E260221B608C00467098 /* Non-Credit-ApplicationSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Non-Credit-ApplicationSpanish.xib"; sourceTree = "<group>"; };
+		9546E261221B608C00467098 /* Non-CreditSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Non-CreditSpanish.xib"; sourceTree = "<group>"; };
+		9546E265221B66A800467098 /* DegreeAuditViewControllerSpanish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DegreeAuditViewControllerSpanish.swift; path = "usmapp/TabBar Controller Menu-Spanish/DegreeAuditViewControllerSpanish.swift"; sourceTree = SOURCE_ROOT; };
+		9546E266221B66A800467098 /* RegistrationViewControllerSpanish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewControllerSpanish.swift; path = "usmapp/TabBar Controller Menu-Spanish/RegistrationViewControllerSpanish.swift"; sourceTree = SOURCE_ROOT; };
+		9546E269221B672A00467098 /* HomeViewControllerSpanish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpanish.swift; sourceTree = "<group>"; };
+		9546E26B221B6A1600467098 /* admissionsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = admissionsSpanish.xib; sourceTree = "<group>"; };
+		957E1F64221B326C008EEB2D /* AssociateDegreeSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssociateDegreeSpanish.xib; sourceTree = "<group>"; };
+		957E1F65221B326C008EEB2D /* BachelorsDegreeSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BachelorsDegreeSpanish.xib; sourceTree = "<group>"; };
+		957E1F66221B326C008EEB2D /* DegreeProgramsSpanish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DegreeProgramsSpanish.xib; sourceTree = "<group>"; };
 		959C4592207C01BF009FA695 /* usmapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usmapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959C4595207C01BF009FA695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959C4597207C01BF009FA695 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +163,64 @@
 			path = CertificatePrograms;
 			sourceTree = "<group>";
 		};
+		9546E24A221B3C0900467098 /* CertificateProgramsSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				9546E24C221B3C8B00467098 /* CertificateProgramsSpanish.xib */,
+				9546E24B221B3C8B00467098 /* PastoralCareCertificateSpanish.xib */,
+				9546E24D221B3C8B00467098 /* SupernaturalCertificateSpanish.xib */,
+			);
+			path = CertificateProgramsSpanish;
+			sourceTree = "<group>";
+		};
+		9546E251221B530100467098 /* Degree Audit Module Spanish */ = {
+			isa = PBXGroup;
+			children = (
+				9546E253221B536000467098 /* degreeAuditAssociateResultsSpanish.xib */,
+				9546E252221B536000467098 /* degreeAuditAssociateSpanish.xib */,
+				9546E254221B536000467098 /* degreeAuditBachelorsResultsSpanish.xib */,
+				9546E255221B536000467098 /* degreeAuditBachelorsSpanish.xib */,
+			);
+			path = "Degree Audit Module Spanish";
+			sourceTree = "<group>";
+		};
+		9546E25A221B5F4700467098 /* InternshipSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				9546E25B221B5F8B00467098 /* supernatural-internship-application-spanish.xib */,
+				9546E25C221B5F8B00467098 /* supernatural-Internship-spanish.xib */,
+			);
+			path = InternshipSpanish;
+			sourceTree = "<group>";
+		};
+		9546E25F221B602700467098 /* Non-CreditSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				9546E260221B608C00467098 /* Non-Credit-ApplicationSpanish.xib */,
+				9546E261221B608C00467098 /* Non-CreditSpanish.xib */,
+			);
+			path = "Non-CreditSpanish";
+			sourceTree = "<group>";
+		};
+		9546E264221B664200467098 /* TabBar Controller Menu-Spanish */ = {
+			isa = PBXGroup;
+			children = (
+				9546E265221B66A800467098 /* DegreeAuditViewControllerSpanish.swift */,
+				9546E266221B66A800467098 /* RegistrationViewControllerSpanish.swift */,
+			);
+			path = "TabBar Controller Menu-Spanish";
+			sourceTree = "<group>";
+		};
+		957E1F63221B31E5008EEB2D /* DegreeProgramsSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				957E1F64221B326C008EEB2D /* AssociateDegreeSpanish.xib */,
+				957E1F65221B326C008EEB2D /* BachelorsDegreeSpanish.xib */,
+				957E1F66221B326C008EEB2D /* DegreeProgramsSpanish.xib */,
+			);
+			path = DegreeProgramsSpanish;
+			sourceTree = "<group>";
+		};
 		959C4589207C01BF009FA695 = {
 			isa = PBXGroup;
 			children = (
@@ -147,14 +241,22 @@
 			isa = PBXGroup;
 			children = (
 				951D5DEC208EF32C006376AA /* DegreePrograms */,
+				957E1F63221B31E5008EEB2D /* DegreeProgramsSpanish */,
 				952CA27D208E663A00044C2A /* CertificatePrograms */,
+				9546E24A221B3C0900467098 /* CertificateProgramsSpanish */,
 				952B8CD1208A9DC600B03FF5 /* Degree Audit Module */,
+				9546E251221B530100467098 /* Degree Audit Module Spanish */,
 				952B8CD0208A9DB300B03FF5 /* Internship */,
+				9546E25A221B5F4700467098 /* InternshipSpanish */,
 				951D5DF3208F9500006376AA /* TabBar Controller Menu */,
+				9546E264221B664200467098 /* TabBar Controller Menu-Spanish */,
 				952B8CCF208A9D9100B03FF5 /* Non-Credit */,
+				9546E25F221B602700467098 /* Non-CreditSpanish */,
 				959C4595207C01BF009FA695 /* AppDelegate.swift */,
 				959C4597207C01BF009FA695 /* HomeViewController.swift */,
+				9546E269221B672A00467098 /* HomeViewControllerSpanish.swift */,
 				952B8CC32089B09700B03FF5 /* admissions.xib */,
+				9546E26B221B6A1600467098 /* admissionsSpanish.xib */,
 				959C459B207C01BF009FA695 /* Main.storyboard */,
 				959C459E207C01C0009FA695 /* Assets.xcassets */,
 				959C45A0207C01C0009FA695 /* LaunchScreen.storyboard */,
@@ -226,19 +328,34 @@
 				9526D1F020853070003F3AB0 /* degreeAuditAssociateResults.xib in Resources */,
 				952B8CC42089B09700B03FF5 /* admissions.xib in Resources */,
 				951D5DF0208EF760006376AA /* BachelorsDegree.xib in Resources */,
+				9546E24F221B3C8B00467098 /* CertificateProgramsSpanish.xib in Resources */,
+				957E1F69221B326C008EEB2D /* DegreeProgramsSpanish.xib in Resources */,
+				9546E257221B536000467098 /* degreeAuditAssociateResultsSpanish.xib in Resources */,
 				952CA27C208E61BE00044C2A /* CertificatePrograms.xib in Resources */,
+				9546E259221B536000467098 /* degreeAuditBachelorsSpanish.xib in Resources */,
+				9546E25D221B5F8B00467098 /* supernatural-internship-application-spanish.xib in Resources */,
+				9546E25E221B5F8B00467098 /* supernatural-Internship-spanish.xib in Resources */,
 				959C45A2207C01C0009FA695 /* LaunchScreen.storyboard in Resources */,
 				9526D1F220854BB9003F3AB0 /* degreeAuditAssociate.xib in Resources */,
 				951D5DEB208EBB60006376AA /* SupernaturalCertificate.xib in Resources */,
+				9546E262221B608C00467098 /* Non-Credit-ApplicationSpanish.xib in Resources */,
+				9546E263221B608C00467098 /* Non-CreditSpanish.xib in Resources */,
+				9546E250221B3C8B00467098 /* SupernaturalCertificateSpanish.xib in Resources */,
 				952B8CC7208A75B100B03FF5 /* Non-Credit-Application.xib in Resources */,
 				9545B699208782D600621EDF /* degreeAuditBachelors.xib in Resources */,
+				9546E24E221B3C8B00467098 /* PastoralCareCertificateSpanish.xib in Resources */,
 				952B8CCE208A9D8100B03FF5 /* supernatural-Internship.xib in Resources */,
+				9546E256221B536000467098 /* degreeAuditAssociateSpanish.xib in Resources */,
 				959C459F207C01C0009FA695 /* Assets.xcassets in Resources */,
 				951D5DF2208EF760006376AA /* AssociateDegree.xib in Resources */,
+				957E1F67221B326C008EEB2D /* AssociateDegreeSpanish.xib in Resources */,
 				951D5DF1208EF760006376AA /* DegreePrograms.xib in Resources */,
+				957E1F68221B326C008EEB2D /* BachelorsDegreeSpanish.xib in Resources */,
+				9546E258221B536000467098 /* degreeAuditBachelorsResultsSpanish.xib in Resources */,
 				952B8CD3208AC0AA00B03FF5 /* supernatural-internship-application.xib in Resources */,
 				9545B69A208782D600621EDF /* degreeAuditBachelorsResults.xib in Resources */,
 				952B8CC8208A75B100B03FF5 /* Non-Credit.xib in Resources */,
+				9546E26C221B6A1600467098 /* admissionsSpanish.xib in Resources */,
 				959C459D207C01BF009FA695 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +369,10 @@
 			files = (
 				959C459A207C01BF009FA695 /* RegistrationViewController.swift in Sources */,
 				959C4596207C01BF009FA695 /* AppDelegate.swift in Sources */,
+				9546E267221B66A800467098 /* DegreeAuditViewControllerSpanish.swift in Sources */,
+				9546E26A221B672A00467098 /* HomeViewControllerSpanish.swift in Sources */,
 				959C45AC207C2E2D009FA695 /* DegreeAuditViewController.swift in Sources */,
+				9546E268221B66A800467098 /* RegistrationViewControllerSpanish.swift in Sources */,
 				959C4598207C01BF009FA695 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

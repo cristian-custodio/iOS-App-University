@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  HomeViewControllerSpanish.swift
 //  usmapp
 //
-//  Created by Cristian Custodio 4/9/18.
-//  Copyright © 2018 Cristian Custodio. All rights reserved.
+//  Created by Cristian Custodio on 2/18/19.
+//  Copyright © 2019 Cristian Custodio. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDelegate {
+class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebViewDelegate {
     
     //Certificate Program Controls
     @IBAction func CertificateSelection(_ sender: UIButton) {
@@ -76,7 +76,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
     }
     
     @IBAction func nonCreditHomeButton(_ sender: UIButton) {
-       self.view.addSubview(nonCreditView!)
+        self.view.addSubview(nonCreditView!)
     }
     
     @IBAction func nonCreditWebFormHomeButton(_ sender: UIButton) {
@@ -90,7 +90,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         nonCreditRegistration?.delegate = self
         
         //Load Registration URL
-        let url = URLRequest(url: URL(string: "https://fs2.formsite.com/universitykingjesusministryorg/form15/")!)
+        let url = URLRequest(url: URL(string: "https://fs2.formsite.com/universitykingjesusministryorg/form16/")!)
         nonCreditRegistration?.loadRequest(url)
     }
     
@@ -157,7 +157,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
     let degreeAudit = #imageLiteral(resourceName: "degreeAudit")
     let register = #imageLiteral(resourceName: "Register")
     
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -167,12 +167,12 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         nonCreditRegistration?.delegate = self
         
         //Admission View Initialization
-        AdmissionsView = instanceFromNib(XIBFilename: "admissions")
+        AdmissionsView = instanceFromNib(XIBFilename: "admissionsSpanish")
         AdmissionsView?.frame = self.view.bounds
         AdmissionsView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //NonCredit View Initialization
-        nonCreditView = instanceFromNib(XIBFilename: "Non-Credit")
+        nonCreditView = instanceFromNib(XIBFilename: "Non-CreditSpanish")
         nonCreditView?.frame = self.view.bounds
         nonCreditView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
@@ -182,7 +182,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         nonCreditViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Internship View Initialization
-        internshipView = instanceFromNib(XIBFilename: "supernatural-Internship")
+        internshipView = instanceFromNib(XIBFilename: "supernatural-Internship-spanish")
         internshipView?.frame = self.view.bounds
         internshipView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
@@ -192,38 +192,38 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         internshipViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Certificate Programs View Initialization
-        certificatePrograms = instanceFromNib(XIBFilename: "CertificatePrograms")
+        certificatePrograms = instanceFromNib(XIBFilename: "CertificateProgramsSpanish")
         certificatePrograms?.frame = self.view.bounds
         certificatePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Pastoral Care View Initialization
-        pastoralCare = instanceFromNib(XIBFilename: "PastoralCareCertificate")
+        pastoralCare = instanceFromNib(XIBFilename: "PastoralCareCertificateSpanish")
         pastoralCare?.frame = self.view.bounds
         pastoralCare?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Supernatural View Initialization
-        supernaturalCertificate = instanceFromNib(XIBFilename: "SupernaturalCertificate")
+        supernaturalCertificate = instanceFromNib(XIBFilename: "SupernaturalCertificateSpanish")
         supernaturalCertificate?.frame = self.view.bounds
         supernaturalCertificate?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Degree Programs View Initialization
-        degreePrograms = instanceFromNib(XIBFilename: "DegreePrograms")
+        degreePrograms = instanceFromNib(XIBFilename: "DegreeProgramsSpanish")
         degreePrograms?.frame = self.view.bounds
         degreePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Associate Degree Programs View Initialization
-        associatePrograms = instanceFromNib(XIBFilename: "AssociateDegree")
+        associatePrograms = instanceFromNib(XIBFilename: "AssociateDegreeSpanish")
         associatePrograms?.frame = self.view.bounds
         associatePrograms?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Bachelors Degree Programs View Initialization
-        bachelorsProgram = instanceFromNib(XIBFilename: "BachelorsDegree")
+        bachelorsProgram = instanceFromNib(XIBFilename: "BachelorsDegreeSpanish")
         bachelorsProgram?.frame = self.view.bounds
         bachelorsProgram?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         
         
-
+        
         
         
         //**************************************//
@@ -253,7 +253,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         self.slideScrollView.addSubview(imgThree)
         self.slideScrollView.addSubview(imgFour)
         self.slideScrollView.addSubview(imgFive)
-
+        
         //SlideScrollView Initiliazation and Delegate
         self.slideScrollView.contentSize = CGSize(width:self.slideScrollView.frame.width * 5, height:self.slideScrollView.frame.height)
         self.slideScrollView.delegate = self
@@ -285,7 +285,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         tabBarController?.tabBar.items![2].image = degreeAudit.withRenderingMode(.alwaysOriginal)
         tabBarController?.tabBar.items![2].selectedImage = degreeAudit.withRenderingMode(.alwaysOriginal)
         
-        }
+    }
     
     
     
@@ -320,4 +320,3 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
     }
     
 }
-

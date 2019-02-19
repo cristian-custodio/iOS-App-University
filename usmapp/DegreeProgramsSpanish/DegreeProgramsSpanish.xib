@@ -29,15 +29,15 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
                             <rect key="frame" x="15" y="526" width="384" height="30"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Return">
+                            <state key="normal" title="Regreso">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
                                 <action selector="resetView:" destination="-1" eventType="touchUpInside" id="nCi-Ca-FwE"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Degree Programs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
-                            <rect key="frame" x="110" y="27.333333333333329" width="195" height="27.666666666666671"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programas Académicos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                            <rect key="frame" x="74.333333333333343" y="27.333333333333329" width="266.33333333333326" height="27.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                         <view contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhi-46-f7n">
                             <rect key="frame" x="16" y="131" width="383" height="385"/>
                             <subviews>
-                                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="justinreading" translatesAutoresizingMaskIntoConstraints="NO" id="dk0-aZ-soK">
+                                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="justinreadingspanish" translatesAutoresizingMaskIntoConstraints="NO" id="dk0-aZ-soK">
                                     <rect key="frame" x="0.0" y="10" width="383" height="367"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
@@ -61,7 +61,7 @@
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal">
                                 <attributedString key="attributedTitle">
-                                    <fragment content="ASSOCIATE IN MINISTRY">
+                                    <fragment content="ASOCIADO EN MINISTERIO">
                                         <attributes>
                                             <font key="NSFont" size="13" name="Helvetica-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
@@ -79,7 +79,7 @@
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal">
                                 <attributedString key="attributedTitle">
-                                    <fragment content="BACHELORS IN MINISTRY">
+                                    <fragment content="LICENCIATURA EN MINISTERIO">
                                         <attributes>
                                             <font key="NSFont" size="13" name="Helvetica-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
@@ -130,7 +130,7 @@
         </view>
     </objects>
     <resources>
-        <image name="justinreading" width="896" height="851"/>
+        <image name="justinreadingspanish" width="896" height="851"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>
