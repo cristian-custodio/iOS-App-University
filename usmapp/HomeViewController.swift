@@ -310,6 +310,23 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIWebViewDeleg
         return (UINib(nibName: XIBFilename, bundle: nil)).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
     
+    @IBAction func loadAssociateCourses(_ sender: UIButton) {
+        
+        if let url = URL(string: "http://usmnow.org/wp-content/uploads/2018/08/Associates-Program.pdf") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+    
+    @IBAction func loadBachelorsCourses(_ sender: UIButton) {
+        
+        if let url = URL(string: "http://usmnow.org/wp-content/uploads/2018/08/Bachelors-Program.pdf") {
+            UIApplication.shared.open(url, options: [:])
+        }
+        
+    }
+    
+    
+    
     func webViewDidFinishLoad(_ webView: UIWebView) {
         activityIndicator.stopAnimating()
         print("indicator Stopped")

@@ -645,7 +645,7 @@
         <image name="degreeAudit" width="30" height="30"/>
         <image name="gradcap" width="700" height="490"/>
         <image name="home" width="30" height="30"/>
-        <image name="usmLogoMenu9" width="180" height="180"/>
+        <image name="usmLogoMenu9" width="60" height="60"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>

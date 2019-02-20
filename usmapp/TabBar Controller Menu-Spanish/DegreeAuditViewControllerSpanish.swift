@@ -172,24 +172,24 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
         super.viewDidLoad()
         
         //Initialize Associate Degree Selection UIView and prepare contraints
-        degreeAuditAssociatesView = instanceFromNib(XIBFilename: "degreeAuditAssociate")
+        degreeAuditAssociatesView = instanceFromNib(XIBFilename: "degreeAuditAssociateSpanish")
         degreeAuditAssociatesView?.frame = self.view.bounds
         degreeAuditAssociatesView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         loadSavedCheckboxesAssociatesDegree()
         
         //Initialize Associate Degree Selection Results UIView and prepare contraints
-        degreeAuditAssociatesViewResults = instanceFromNib(XIBFilename: "degreeAuditAssociateResults")
+        degreeAuditAssociatesViewResults = instanceFromNib(XIBFilename: "degreeAuditAssociateResultsSpanish")
         degreeAuditAssociatesViewResults?.frame = self.view.bounds
         degreeAuditAssociatesViewResults?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //Initialize Bachelors Degree Selection UIView and prepare contraints
-        degreeAuditBachelorsView = instanceFromNib(XIBFilename: "degreeAuditBachelors")
+        degreeAuditBachelorsView = instanceFromNib(XIBFilename: "degreeAuditBachelorsSpanish")
         degreeAuditBachelorsView?.frame = self.view.bounds
         degreeAuditBachelorsView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         loadSavedCheckBoxesBachelorsDegree()
         
         //Initialize Bachelors Degree Selection Results UIView and prepare contraints
-        degreeAuditBachelorsViewResults = instanceFromNib(XIBFilename: "degreeAuditBachelorsResults")
+        degreeAuditBachelorsViewResults = instanceFromNib(XIBFilename: "degreeAuditBachelorsResultsSpanish")
         degreeAuditBachelorsViewResults?.frame = self.view.bounds
         degreeAuditBachelorsViewResults?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
     }
@@ -800,175 +800,175 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 101 - Revelation and Power of the Work of Jesus Christ on the Cross I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 101 - Revelación y Poder de la Obra de Jesucristo en la Cruz I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP201") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 201 - Revelation and Power of the Work of Jesus Christ on the Cross II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 201 - Revelación y Poder de la Obra de Jesucristo en la Cruz II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 110 - Revelation and Power of the Resurrection of Jesus Christ" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 110 - Revelación y Poder de la Resurrección de Jesucristo" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 120 - Faith I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 120 - Fe I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 220 - Faith II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 220 - Fe II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP130") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 130 - Prayer I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 130 - Oración I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP230") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 230 - Prayer II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 230 - Oración II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP140") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 140 - Evangelism with Miracles I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 140 - Evangelismo con Milagros I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP260") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 260 - Evangelism with Miracles II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 260 - Evangelismo con Milagros II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 210 - Inner Healing and Deliverance" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 210 - Sanidad Interior y Liberación" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP240") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 240 - Divine Health and Healing" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 240 - Salud y Sanidad Divina" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP250") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 250 - How to Walk in the Supernatural Power of God I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 250 - Cómo caminar en el Poder Sobrenatural de Dios I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP350") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 350 - How to Walk in the Supernatural Power of God II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 350 - Cómo caminar en el Poder Sobrenatural de Dios II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG101") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "KPG 101 - The Apostolic Vision of the House I" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 101 - La Visión Apostólica de la Casa I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG201") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "KPG 201 - The Apostolic Vision of the House II" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 201 - La Visión Apostólica de la Casa II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "KPG 210 - Kingdom Economic Principles" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 210 - Principios de la Economía del Reino" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG330") == true) {
             courseCounter = courseCounter + 1;
             missionTripCompleted = true
         } else {
-            missingCourses = missingCourses + "KPG 330 - Kingdom Advancement Through Mission" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 330 - Avanzando el Reino a través de las Misiones" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "PMI 110 - Introduction to the Five-fold Ministry" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 110 - Introducción al Ministerio Quíntuple" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 120 - The Formation of the Character and Ministry of a Leader I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 120 - La Formación del Carácter y el Ministerio del Líder I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI130") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 130 - How to Find your Purpose and Calling for your Life I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 130 - Cómo encontrar el Propósito y el Llamado para su vida I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "PMI 210 - Fathering, Family, Marriage and Children I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 210 - Paternidad, La Familia, El Matrimonio y los Hijos I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 220 - Transformation through the Renewing of the Mind" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 220 - Transformación a través de la Renovación de la Mente" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED260") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "GED 260 - The Three Pillars of Health: Diet, Exercise and Rest I" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 260 - Los Tres Pilares de la Salud: Dieta, Ejercicio y Descanso I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "GED 220 - English Composition" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 220 - Composición en Español o Inglés" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "RKG210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "RKG 210 - How to Hear the Voice of God" + "\n" + "\n"
+            missingCourses = missingCourses + "RKG 210 - Cómo Escuchar la Voz de Dios" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "RKG310") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "RKG 310 - The Holy Spirit in the Now I" + "\n" + "\n"
+            missingCourses = missingCourses + "RKG 310 - El Espíritu Santo en el Ahora I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "BRV 120 - Foundation of the Christian Faith" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 120 - Fundamentos de la Fe Cristiana" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "BRV 220 - Preaching the Gospel of the Kingdom with Revelation and Authority" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 220 - Predicando el Evangelio del Reino con Revelación y Autoridad" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV103") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "BRV 103  - How to Study the Bible" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 103  - Cómo Estudiar la Biblia" + "\n" + "\n"
         }
     }
     
@@ -977,307 +977,307 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 101 - Revelation and Power of the Work of Jesus Christ on the Cross I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 101 - Revelación y Poder de la Obra de Jesucristo en la Cruz I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP201") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 201 - Revelation and Power of the Work of Jesus Christ on the Cross II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 201 - Revelación y Poder de la Obra de Jesucristo en la Cruz II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 110 - Revelation and Power of the Resurrection of Jesus Christ" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 110 - Revelación y Poder de la Resurrección de Jesucristo" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 120 - Faith I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 120 - Fe I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 220 - Faith II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 220 - Fe II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP130") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 130 - Prayer I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 130 - Oración I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP230") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 230 - Prayer II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 230 - Oración II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP140") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 140 - Evangelism with Miracles I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 140 - Evangelismo con Milagros I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP260") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "SUP 260 - Evangelism with Miracles II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 260 - Evangelismo con Milagros II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 210 - Inner Healing and Deliverance" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 210 - Sanidad Interior y Liberación" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP240") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 240 - Divine Health and Healing" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 240 - Salud y Sanidad Divina" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP250") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 250 - How to Walk in the Supernatural Power of God I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 250 - Cómo caminar en el Poder Sobrenatural de Dios I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP350") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "SUP 350 - How to Walk in the Supernatural Power of God II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 350 - Cómo caminar en el Poder Sobrenatural de Dios II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG101") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "KPG 101 - The Apostolic Vision of the House I" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 101 - La Visión Apostólica de la Casa I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG201") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "KPG 201 - The Apostolic Vision of the House II" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 201 - La Visión Apostólica de la Casa II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "KPG 210 - Kingdom Economic Principles" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 210 -  Principios de la Economía del Reino" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG330") == true) {
             courseCounter = courseCounter + 1;
             missionTripCompleted = true
         } else {
-            missingCourses = missingCourses + "KPG 330 - Kingdom Advancement Through Mission" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 330 - Avanzando el Reino a través de las Misiones" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "PMI 110 - Introduction to the Five-fold Ministry" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 110 - Introducción al Ministerio Quíntuple" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 120 - The Formation of the Character and Ministry of a Leader I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 120 - La formación del Carácter y el Ministerio del Líder I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI130") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 130 - How to Find your Purpose and Calling for your Life I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 130 - Cómo encontrar el Propósito y Llamado para su Vida I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else {
-            missingCourses = missingCourses + "PMI 210 - Fathering, Family, Marriage and Children I" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 210 - Paternidad, Familia, Matrimonio y los Hijos I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "PMI 220 - Transformation through the Renewing of the Mind" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 220 - Transformación a través de la Renovación de la Mente" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED260") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "GED 260 - The Three Pillars of Health: Diet, Exercise and Rest I" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 260 - Los Tres Pilares de la Salud: Dieta, Ejercicio y Descanso I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "GED 220 - English Composition" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 220 - Composición en Inglés / Español" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "RKG210") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "RKG 210 - How to Hear the Voice of God" + "\n" + "\n"
+            missingCourses = missingCourses + "RKG 210 - Cómo escuchar la Voz de Dios" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "RKG310") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "RKG 310 - The Holy Spirit in the Now I" + "\n" + "\n"
+            missingCourses = missingCourses + "RKG 310 - El Espíritu Santo en el Ahora I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV120") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else {
-            missingCourses = missingCourses + "BRV 120 - Foundation of the Christian Faith" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 120 - Fundamentos de la Fe Cristiana" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "BRV 220 - Preaching the Gospel of the Kingdom with Revelation and Authority" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 220 - Predicando el Evangelio del Reino con Revelación y Autoridad" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP310") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "SUP 310 - Deliverance, the Children's Bread" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 310 - Liberación, El pan de los Hijos" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP301") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "SUP 301 - Fasting as a Spiritual Weapon" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 301 - El ayuno como Arma Espiritual" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP320") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "SUP 320 - The Ministry of Intercession" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 320 - El Ministerio de Intercesión" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP340") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "SUP 340 - The Gifts of the Holy Spirit, Here and Now I" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 340 - Los Dones del Espíritu Santo, Aquí y Ahora" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "SUP360") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "SUP 360 - The Gifts of the Holy Spirit, Here and Now II" + "\n" + "\n"
+            missingCourses = missingCourses + "SUP 360 - El Fruto del Espíritu" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 4;
         } else{
-            missingCourses = missingCourses + "KPG220 - The Kingdom of Power, Dominion, Expansion and Demonstration I" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG 220 -  El Reino de Poder, Dominio, Expansión y Demostración I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "KPG320") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "KPG320 - The Kingdom of Power, Dominion, Expansion and Demonstration II" + "\n" + "\n"
+            missingCourses = missingCourses + "KPG320 - El Reino de Poder, Dominio, Expansión y Demostración II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI230") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "PMI 230 - The Formation of the Character and Ministry of a Leader II" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 230 - La formación del Carácter y el Ministerio del Líder II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI240") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "PMI 240 - How to Find your Purpose and Calling for your Life II" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 240 - Cómo encontrar el propósito y llamado para su Vida II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI310") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "PMI 310 - Fathering, Family, Marriage and Children II" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 310 - Paternidad, Familia, Matrimonio y los Hijos II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI320") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "PMI 320 - A Covenant of Commitment with God" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 320 - Un pacto de Compromiso con Dios" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "PMI330") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "PMI 330 - Counseling, Pastoral Care, and Love" + "\n" + "\n"
+            missingCourses = missingCourses + "PMI 330 - Consejería, Cuidado Pastoral, y el Amor" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "RKG320") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "RKG 320 - The Holy Spirit in the Now II" + "\n" + "\n"
+            missingCourses = missingCourses + "RKG 320 - El Espíritu Santo en el Ahora II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV101") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "BRV 101 - Old Testament I" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 101 - Antiguo Testamento I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV102") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "BRV 102 - Old Testament II" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 102 - Antiguo Testamento II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV201") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "BRV 201 - New Testament I" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 201 - Nuevo Testamento I" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV202") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "BRV 202 - New Testament II" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 202 - Nuevo Testamento II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "BRV420") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "BRV 420 - End Times and the Book of Revelation" + "\n" + "\n"
+            missingCourses = missingCourses + "BRV 420 - Los últimos tiempos y el Libro de Apocalipsis" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "MUS101") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "MUS 101 - Introduction to Praise and Worship" + "\n" + "\n"
+            missingCourses = missingCourses + "MUS 101 - Introducción a La Alabanza y La Adoración" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "MUS110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "MUS 110 - Introduction to Music" + "\n" + "\n"
+            missingCourses = missingCourses + "MUS 110 - Introducción a la Música" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "MUS220") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "MUS 220 - How to Raise a Prophetic Praise and Worship Team" + "\n" + "\n"
+            missingCourses = missingCourses + "MUS 220 - Cómo levantar Alabanza y Adoración Profética" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED110") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 4;
         } else{
-            missingCourses = missingCourses + "GED 110 - Financial, Legal and Administrative Processes and Procedures..." + "\n" + "\n"
+            missingCourses = missingCourses + "GED 110 - Procesos financieros, Jurídicos y Procedimientos Administrativos para las..." + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED460") == true) {
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 2;
         } else{
-            missingCourses = missingCourses + "GED 460 - The Three Pillars of Health: Diet, Exercise and Rest II" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 460 - Los tres pilares de la salud: Dieta, Ejercicio y Descanso II" + "\n" + "\n"
         }
         if(degreeCoursesSelected.bool(forKey: "GED320") == true) {
             courseCounter = courseCounter + 1;
@@ -1303,21 +1303,21 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
         //Progress Based UI Customizatin
         if (creditsCounter == 64 && missionTripCompleted == true) {
             graduationReadyAssociateLabel.textColor = UIColor.green
-            graduationReadyAssociateLabel.text = "Yes!"
-            missingCoursesAssociateTextView.text = "All academic requirements have been fulfilled for the Associate in Ministry Degree."
-            coursesRemainingAssociatesLabel.text = "Congratulations"
+            graduationReadyAssociateLabel.text = "Si!"
+            missingCoursesAssociateTextView.text = "Se han cumplido todos los requisitos académicos para el Grado Asociado en Ministerio.."
+            coursesRemainingAssociatesLabel.text = "Felicidades"
             coursesRemainingAssociatesLabel.textColor = UIColor.green
             
         } else if (creditsCounter == 64 && missionTripCompleted == false) {
             graduationReadyAssociateLabel.textColor = UIColor.red
-            graduationReadyAssociateLabel.text = "Missing Missionary Trip"
+            graduationReadyAssociateLabel.text = "Falta el Viaje misionero"
             percentageCompletedAssociateLabel.text = "99%"
             
         } else if (creditsCounter > 32) {
-            graduationReadyAssociateLabel.text = "Almost There"
+            graduationReadyAssociateLabel.text = "Casi"
         } else {
-            graduationReadyAssociateLabel.text = "Keep Going!"
-            coursesRemainingAssociatesLabel.text = "Courses Remaining"
+            graduationReadyAssociateLabel.text = "Sigue!"
+            coursesRemainingAssociatesLabel.text = "Cursos restantes"
             coursesRemainingAssociatesLabel.textColor = UIColor.red
         }
         
@@ -1340,33 +1340,31 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
         if (creditsCounter == 120 && missionTripCompleted == true) {
             graduationReadyBachelorsLabel.textColor = UIColor.green
             graduationReadyBachelorsLabel.text = "Yes!"
-            missingCoursesBachelorsTextView.text = "All academic requirements have been fulfilled for the Bachelors in Ministry Degree."
-            coursesRemainingBachelorsLabel.text = "Congratulations"
+            missingCoursesBachelorsTextView.text = "Todos los requisitos académicos se han cumplido para la Licenciatura en Grado de Ministerio."
+            coursesRemainingBachelorsLabel.text = "Felicidades"
             coursesRemainingBachelorsLabel.textColor = UIColor.green
             
         } else if (creditsCounter == 120 && missionTripCompleted == false) {
             graduationReadyBachelorsLabel.textColor = UIColor.red
-            graduationReadyBachelorsLabel.text = "Missing Missionary Trip"
+            graduationReadyBachelorsLabel.text = "Falta el Viaje misionero"
             percentageCompletedBachelorsLabel.text = "99%"
             
         } else if (creditsCounter > 60) {
-            graduationReadyBachelorsLabel.text = "Almost There"
+            graduationReadyBachelorsLabel.text = "Casi"
         } else {
-            graduationReadyBachelorsLabel.text = "Keep Going!"
-            coursesRemainingBachelorsLabel.text = "Courses Remaining"
+            graduationReadyBachelorsLabel.text = "Sigue!"
+            coursesRemainingBachelorsLabel.text = "Cursos restantes"
             coursesRemainingBachelorsLabel.textColor = UIColor.red
         }
-        
-        
     }
     
     func sendEmailAssociates() {
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
             mail.mailComposeDelegate = self
-            mail.setSubject("Associates Degree Audit")
+            mail.setSubject("Informe de Auditoría del Asociado")
             mail.setToRecipients([""])
-            mail.setMessageBody("Total Completion: \((creditsCounter*100)/64)" + "%" + "\n" + "Credits Remaining: \(64-creditsCounter)" + "\n" + "Graduation Ready: " + graduationStatus + "\n" + "\n" + "Courses Remaining:"  +  "\n" + "\n" + missingCourses, isHTML: false)
+            mail.setMessageBody("Finalización total: \((creditsCounter*100)/64)" + "%" + "\n" + "Créditos Restantes: \(64-creditsCounter)" + "\n" + "Listo para graduarse: " + graduationStatus + "\n" + "\n" + "Cursos Restantes:"  +  "\n" + "\n" + missingCourses, isHTML: false)
             
             present(mail, animated: true)
         } else {
@@ -1378,9 +1376,9 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
             mail.mailComposeDelegate = self
-            mail.setSubject("Bachelors Degree Audit")
+            mail.setSubject("Informe de Auditoría de la Licenciatura")
             mail.setToRecipients([""])
-            mail.setMessageBody("Total Completion: \((creditsCounter*100)/120)" + "%" + "\n" + "Credits Remaining: \(120-creditsCounter)" + "\n" + "Graduation Ready: " + graduationStatus + "\n" + "\n" + "Courses Remaining:"  +  "\n" + "\n" + missingCourses, isHTML: false)
+            mail.setMessageBody("Finalización total: \((creditsCounter*100)/120)" + "%" + "\n" + "Créditos Restantes: \(120-creditsCounter)" + "\n" + "Listo para graduarse: " + graduationStatus + "\n" + "\n" + "Cursos Restantes:"  +  "\n" + "\n" + missingCourses, isHTML: false)
             
             present(mail, animated: true)
         } else {

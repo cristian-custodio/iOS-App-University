@@ -162,8 +162,6 @@ class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebVi
         super.viewDidLoad()
         
         
-        
-        
         nonCreditRegistration?.delegate = self
         
         //Admission View Initialization
@@ -220,10 +218,6 @@ class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebVi
         bachelorsProgram = instanceFromNib(XIBFilename: "BachelorsDegreeSpanish")
         bachelorsProgram?.frame = self.view.bounds
         bachelorsProgram?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
-        
-        
-        
-        
         
         
         //**************************************//
@@ -319,4 +313,16 @@ class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebVi
         activityIndicator.startAnimating()
     }
     
+    @IBAction func loadAssociateCourses(_ sender: UIButton) {
+        
+        if let url = URL(string: "http://usmnow.org/wp-content/uploads/2018/08/PROGRAMA-DE-ASOCIADO-EN-MINISTERIO.pdf") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+    
+    @IBAction func loadBachelorsCourses(_ sender: UIButton) {
+        if let url = URL(string: "http://usmnow.org/wp-content/uploads/2018/08/PROGRAMA-DE-LICENCIATURA-EN-MINISTERIO.pdf") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
 }
