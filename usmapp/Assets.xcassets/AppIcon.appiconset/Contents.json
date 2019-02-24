@@ -33,13 +33,12 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "120x120-usmlogo.png",
+      "filename" : "120x1202-usmlogo.jpg",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "180x180-usmlogo.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
@@ -90,7 +89,7 @@
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "usmLogo-1024x1024.png",
+      "filename" : "usmLogo5-1024x1024.jpg",
       "scale" : "1x"
     }
   ],
