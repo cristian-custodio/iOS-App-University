@@ -16,7 +16,7 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
     var creditsCounter = 0;
     var missionTripCompleted = false;
     var missingCourses = ""
-    var graduationStatus = "Not Yet"
+    var graduationStatus = "Todavia No"
     
     //Checkboxes Outlet References
     //Associates Program Degree Specific Courses
@@ -1283,7 +1283,7 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
             courseCounter = courseCounter + 1;
             creditsCounter = creditsCounter + 3;
         } else{
-            missingCourses = missingCourses + "GED 320 - Introduction to Computers and Technology" + "\n" + "\n"
+            missingCourses = missingCourses + "GED 320 - Introducción a las Computadoras y la Tecnología" + "\n" + "\n"
         }
     }
     
@@ -1310,7 +1310,7 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
             
         } else if (creditsCounter == 64 && missionTripCompleted == false) {
             graduationReadyAssociateLabel.textColor = UIColor.red
-            graduationReadyAssociateLabel.text = "Falta el Viaje misionero"
+            graduationReadyAssociateLabel.text = "Viaje misionero"
             percentageCompletedAssociateLabel.text = "99%"
             
         } else if (creditsCounter > 32) {
@@ -1320,7 +1320,6 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
             coursesRemainingAssociatesLabel.text = "Cursos restantes"
             coursesRemainingAssociatesLabel.textColor = UIColor.red
         }
-        
     }
     
     func populateBachelorsReport() {
@@ -1339,15 +1338,16 @@ class DegreeAuditViewControllerSpanish: UIViewController,MFMailComposeViewContro
         //Progress Based UI Customization///////
         if (creditsCounter == 120 && missionTripCompleted == true) {
             graduationReadyBachelorsLabel.textColor = UIColor.green
-            graduationReadyBachelorsLabel.text = "Yes!"
+            graduationReadyBachelorsLabel.text = "Si!"
             missingCoursesBachelorsTextView.text = "Todos los requisitos académicos se han cumplido para la Licenciatura en Grado de Ministerio."
             coursesRemainingBachelorsLabel.text = "Felicidades"
             coursesRemainingBachelorsLabel.textColor = UIColor.green
             
         } else if (creditsCounter == 120 && missionTripCompleted == false) {
             graduationReadyBachelorsLabel.textColor = UIColor.red
-            graduationReadyBachelorsLabel.text = "Falta el Viaje misionero"
+            graduationReadyBachelorsLabel.text = "Viaje misionero"
             percentageCompletedBachelorsLabel.text = "99%"
+            coursesRemainingBachelorsLabel.text = "Cursos restantes"
             
         } else if (creditsCounter > 60) {
             graduationReadyBachelorsLabel.text = "Casi"

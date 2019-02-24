@@ -116,7 +116,7 @@
                                 <rect key="frame" x="281" y="172" width="89" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.099129877980000003" green="0.16305235030000001" blue="0.26276552679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="SPANISH">
+                                <state key="normal" title="ESPAÑOL">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -369,7 +369,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                        <state key="normal" title="PRO. ACADÉMICO">
+                                        <state key="normal" title="PRO. ACADÉMICOS">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -484,7 +484,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="dZN-zi-h2z">
                                 <rect key="frame" x="0.0" y="178" width="375" height="309"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auditoría de grado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-cX-oWB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auditoría de Grado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-cX-oWB">
                                 <rect key="frame" x="81" y="35" width="213" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -547,7 +547,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V2d-8e-1pU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Auditoria" image="degreeAudit" id="6zk-Cg-VqS"/>
+                    <tabBarItem key="tabBarItem" title="Auditoría" image="degreeAudit" id="6zk-Cg-VqS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elp-pn-n4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

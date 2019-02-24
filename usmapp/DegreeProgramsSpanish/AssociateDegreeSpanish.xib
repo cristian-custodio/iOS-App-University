@@ -24,12 +24,12 @@
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-yS-MzJ">
                     <rect key="frame" x="5" y="51" width="365" height="43"/>
-                    <string key="text">El programa de Asociado en Ministerio esta disenado para capacitar a los obreros cristianos que tiened el objetivo de apoyar los miniterios existentes o los ministerios nuevos.</string>
+                    <string key="text">El programa de Asociado en Ministerio está diseñado para capacitar a los obreros cristianos que tienen el objetivo de apoyar los ministerios existentes o los ministerios nuevos.</string>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Àreas de Entrenamiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="hha-xh-Lqh">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Àreas de entrenamiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="hha-xh-Lqh">
                     <rect key="frame" x="80" y="99" width="215" height="23"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

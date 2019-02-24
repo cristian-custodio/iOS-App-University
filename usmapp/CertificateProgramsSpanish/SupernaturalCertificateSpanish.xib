@@ -23,20 +23,20 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-yS-MzJ">
-                    <rect key="frame" x="5" y="51" width="365" height="72"/>
-                    <string key="text">El mayor obstáculo para fluir en lo sobrenatural es la ignorancia. Dios nos ha dado todo el armamento poderoso y sobrenatural, pero no sabemos cómo usarlo. Este certificado de Introducción al Ministerio Sobrenatural está diseñado para traer revelación, activación e impartición en en lo sobrenatural.</string>
+                    <rect key="frame" x="5" y="51" width="365" height="43"/>
+                    <string key="text">El mayor obstáculo para fluir en lo sobrenatural es la ignorancia. Dios nos ha dado a todos armas sobrenaturales poderosas, pero no sabemos cómo usarlas.</string>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Áreas de entrenamiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="hha-xh-Lqh">
-                    <rect key="frame" x="80" y="128" width="215" height="23"/>
+                    <rect key="frame" x="80" y="99" width="215" height="23"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-Nf-sGC">
-                    <rect key="frame" x="20" y="151" width="335" height="86"/>
+                    <rect key="frame" x="20" y="122" width="335" height="86"/>
                     <string key="text">- Fé I
 - Evangelismo con milagros
 - Sanidad interior y liberación

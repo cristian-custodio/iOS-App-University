@@ -24,7 +24,7 @@
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-yS-MzJ">
                     <rect key="frame" x="5" y="51" width="365" height="72"/>
-                    <string key="text">El certificado de introducción a cuidado pastoral esta diseñado para capacitar a las personas para que cuiden a los demas. Muchos problemas en la sociedad y en la iglesia tiene que ver con problemas en la familia y falta de conocimiento.</string>
+                    <string key="text">El Certificado de Introducción al Cuidado Pastoral está diseñado para entrenar a las personas a cuidar de otros. Muchos problemas en la sociedad y en la iglesia están relacionados con problemas en la familia y falta de compromiso.</string>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>

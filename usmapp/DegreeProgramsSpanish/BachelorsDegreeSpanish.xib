@@ -23,20 +23,20 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-yS-MzJ">
-                    <rect key="frame" x="5" y="51" width="365" height="43"/>
-                    <string key="text">El plan de estudios para la Licenciatura en Ministerio está diseñado con el objetivo de preparar a los estudiantes para integrarse o llevar un ministerio cristiano.</string>
+                    <rect key="frame" x="5" y="51" width="365" height="57.5"/>
+                    <string key="text">El plan de estudios para la Licenciatura en Ministerio está diseñado con el objetivo de preparar a los estudiantes para integrarse o llevar un ministerio cristiano, iglesia, u organización eclesiástica.</string>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Áreas de entrenamiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="hha-xh-Lqh">
-                    <rect key="frame" x="80" y="99" width="215" height="23"/>
+                    <rect key="frame" x="80" y="113.5" width="215" height="23"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                     <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-Nf-sGC">
-                    <rect key="frame" x="20" y="122" width="335" height="86"/>
+                    <rect key="frame" x="20" y="136.5" width="335" height="86"/>
                     <string key="text">- Ministerio Sobrenatural
 - El reino de Dios y su forma de operar
 - Carácter personal e identidad ministerial
@@ -48,7 +48,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujf-gM-Mfh">
-                    <rect key="frame" x="93" y="221" width="189" height="30"/>
+                    <rect key="frame" x="93" y="235.5" width="189" height="30"/>
                     <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Lista de Cursos">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

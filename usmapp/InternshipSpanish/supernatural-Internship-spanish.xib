@@ -22,7 +22,7 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usmlogo_background4" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-sP-CIf">
                             <rect key="frame" x="8" y="212" width="398" height="414"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Experiencia Sobrenatural Inmersiva" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Experiencia Inmersiva Sobrenatural" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
                             <rect key="frame" x="8" y="302" width="398" height="26"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
@@ -90,8 +90,8 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="internship" width="1600" height="1068"/>
-        <image name="internship_form" width="322" height="321"/>
+        <image name="internship" width="533" height="356"/>
+        <image name="internship_form" width="161" height="160"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>

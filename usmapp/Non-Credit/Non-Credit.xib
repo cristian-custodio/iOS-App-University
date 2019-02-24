@@ -42,7 +42,7 @@
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="The University invites you to audit our courses and begin to learn to wlak in the Supernatural Power of God." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="The University invites you to audit our courses and begin to learn to walk in the Supernatural Power of God." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySm-ep-ARA">
                             <rect key="frame" x="5" y="352" width="404" height="45"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="45" id="GEH-jB-z1g"/>
@@ -100,7 +100,7 @@
         </view>
     </objects>
     <resources>
-        <image name="univeristybuilding" width="441.75" height="294"/>
+        <image name="univeristybuilding" width="589" height="392"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>

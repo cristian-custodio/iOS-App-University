@@ -60,8 +60,8 @@
                         </textView>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-12-m0N">
                             <rect key="frame" x="8" y="161" width="398" height="51"/>
-                            <string key="text">Apostle Guillermo Maldonado
-Founder and President</string>
+                            <string key="text">Apóstol Guillermo Maldonado
+Presidente y Fundador</string>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -110,7 +110,7 @@ Founder and President</string>
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="admissionsform" width="77.279998779296875" height="77"/>
+        <image name="admissionsform" width="322" height="321"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>

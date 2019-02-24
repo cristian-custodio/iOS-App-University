@@ -175,7 +175,7 @@ class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebVi
         nonCreditView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //NonCreditRegister View Initialization
-        nonCreditViewRegister = instanceFromNib(XIBFilename: "Non-Credit-Application")
+        nonCreditViewRegister = instanceFromNib(XIBFilename: "Non-Credit-ApplicationSpanish")
         nonCreditViewRegister?.frame = self.view.bounds
         nonCreditViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
@@ -185,7 +185,7 @@ class HomeViewControllerSpanish: UIViewController, UIScrollViewDelegate, UIWebVi
         internshipView?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         
         //InternshipRegister View Initialization
-        internshipViewRegister = instanceFromNib(XIBFilename: "supernatural-internship-application")
+        internshipViewRegister = instanceFromNib(XIBFilename: "supernatural-internship-application-spanish")
         internshipViewRegister?.frame = self.view.bounds
         internshipViewRegister?.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth,UIView.AutoresizingMask.flexibleHeight]
         

@@ -29,15 +29,15 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-U2-vHi">
                             <rect key="frame" x="15" y="526" width="384" height="30"/>
                             <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <state key="normal" title="Return">
+                            <state key="normal" title="Inicio">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
                                 <action selector="resetView:" destination="-1" eventType="touchUpInside" id="nCi-Ca-FwE"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programas de certificado" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
-                            <rect key="frame" x="66" y="27.333333333333329" width="283.33333333333331" height="27.666666666666671"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programas de Certificado" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-fp-k5w">
+                            <rect key="frame" x="64" y="27.333333333333329" width="287" height="27.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
                             <color key="textColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -131,7 +131,7 @@
         </view>
     </objects>
     <resources>
-        <image name="certificaterogramspanish" width="896" height="851"/>
+        <image name="certificaterogramspanish" width="298" height="283"/>
         <image name="usmlogo_background4" width="1388" height="1372"/>
     </resources>
 </document>
